@@ -1,0 +1,190 @@
+{
+    "machine": [
+        {
+            "name": "default",
+            "busCycleTime": 4
+        }
+    ],
+    "stream": [
+        {
+            "name": "default"
+        }
+    ],
+    "soloActivity": [
+        {
+            "name": "0"
+        },
+        {
+            "name": "1"
+        }
+    ],
+    "joint": [
+        {
+            "name": "0",
+            "limits": [
+                {
+                    "vmax": 500,
+                    "amax": 2000,
+                    "jmax": 4000
+                }
+            ],
+            "scale": 1000
+        },
+        {
+            "name": "1",
+            "limits": [
+                {
+                    "vmax": 500,
+                    "amax": 2000,
+                    "jmax": 4000
+                }
+            ],
+            "scale": 1000
+        },
+        {
+            "name": "2",
+            "limits": [
+                {
+                    "vmax": 500,
+                    "amax": 2000,
+                    "jmax": 4000
+                }
+            ],
+            "scale": 1000
+        }
+    ],
+    "kinematicsConfiguration": [
+        {
+            "name": "conveyor1",
+            "frameIndex": 0,
+            "participatingJoints": [
+                0
+            ],
+            "participatingJointsCount": 1,
+            "kinematicsConfigurationType": 4,
+            "extentsX": [
+                -100,
+                100
+            ],
+            "linearLimits": [
+                {
+                    "vmax": 50,
+                    "amax": 200,
+                    "jmax": 400
+                }
+            ]
+        },
+        {
+            "name": "conveyor2",
+            "frameIndex": 0,
+            "participatingJoints": [
+                1
+            ],
+            "participatingJointsCount": 1,
+            "kinematicsConfigurationType": 4,
+            "extentsX": [
+                -100,
+                100
+            ],
+            "linearVmax": 50,
+            "linearAmax": 200,
+            "linearJmax": 400
+        }
+    ],
+    "din": [
+        {
+            "name": "0",
+            "inverted": 0
+        },
+        {
+            "name": "1",
+            "inverted": 0
+        },
+        {
+            "name": "2",
+            "inverted": 1
+        },
+        {
+            "name": "3",
+            "inverted": 0
+        },
+        {
+            "name": "4",
+            "inverted": 0
+        },
+        {
+            "name": "5",
+            "inverted": 0
+        },
+        {
+            "name": "6",
+            "inverted": 0
+        },
+        {
+            "name": "7",
+            "inverted": 0
+        }
+    ],
+    "dout": [
+        {
+            "name": "0",
+            "inverted": 0
+        },
+        {
+            "name": "1",
+            "inverted": 0
+        },
+        {
+            "name": "2",
+            "inverted": 0
+        },
+        {
+            "name": "3",
+            "inverted": 0
+        },
+        {
+            "name": "4",
+            "inverted": 0
+        },
+        {
+            "name": "5",
+            "inverted": 0
+        },
+        {
+            "name": "6",
+            "inverted": 0
+        },
+        {
+            "name": "7",
+            "inverted": 0
+        },
+        {
+            "name": "8",
+            "inverted": 0
+        },
+        {
+            "name": "9",
+            "inverted": 0
+        }
+    ],
+    "ain": [
+        {
+            "name": "0"
+        }
+    ],
+    "aout": [
+        {
+            "name": "0"
+        }
+    ],
+    "iin": [
+        {
+            "name": "0"
+        }
+    ],
+    "iout": [
+        {
+            "name": "0"
+        }
+    ]
+}
