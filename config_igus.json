@@ -21,12 +21,12 @@
             "name": "0",
             "limits": [
                 {
-                    "vmax": 1,
-                    "amax": 8,
-                    "jmax": 160
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 10000,
+            "scale": 1333333.3333,
             "jointType": 1,
             "negLimit": -180,
             "posLimit": 180
@@ -35,12 +35,12 @@
             "name": "1",
             "limits": [
                 {
-                    "vmax": 1,
-                    "amax": 8,
-                    "jmax": 160
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 10000,
+            "scale": 1333333.3333,
             "jointType": 1,
             "negLimit": -70,
             "posLimit": 110
@@ -49,12 +49,12 @@
             "name": "2",
             "limits": [
                 {
-                    "vmax": 1,
-                    "amax": 8,
-                    "jmax": 160
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 10000,
+            "scale": 1333333.3333,
             "jointType": 1,
             "negLimit": -10,
             "posLimit": 145
@@ -63,26 +63,26 @@
             "name": "3",
             "limits": [
                 {
-                    "vmax": 1,
-                    "amax": 8,
-                    "jmax": 160
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 10000,
+            "scale": 2777777.7777,
             "jointType": 1,
-            "negLimit": -15,
+            "negLimit": -145,
             "posLimit": 145
         },
         {
             "name": "4",
             "limits": [
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 27.7777
+            "scale": 2777777.7777
         }
     ],
     "kinematicsConfiguration": [
@@ -90,11 +90,11 @@
             "name": "default",
             "frameIndex": 0,
             "participatingJoints": [
-                0,
-                1,
                 2,
-                3,
-                4
+                1,
+                0,
+                4,
+                3
             ],
             "participatingJointsCount": 5,
             "kinematicsConfigurationType": 2,
