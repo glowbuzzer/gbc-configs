@@ -28,8 +28,8 @@
             ],
             "scale": 1333333.3333,
             "jointType": 1,
-            "negLimit": -180,
-            "posLimit": 180
+            "negLimit": -10,
+            "posLimit": 145
         },
         {
             "name": "1",
@@ -56,8 +56,8 @@
             ],
             "scale": 1333333.3333,
             "jointType": 1,
-            "negLimit": -10,
-            "posLimit": 145
+            "negLimit": -180,
+            "posLimit": 180
         },
         {
             "name": "3",
@@ -70,8 +70,8 @@
             ],
             "scale": 2777777.7777,
             "jointType": 1,
-            "negLimit": -145,
-            "posLimit": 145
+            "negLimit": -270,
+            "posLimit": 270
         },
         {
             "name": "4",
@@ -82,7 +82,9 @@
                     "jmax": 8
                 }
             ],
-            "scale": 2777777.7777
+            "scale": 2777777.7777,
+            "negLimit": -145,
+            "posLimit": 145
         }
     ],
     "kinematicsConfiguration": [
@@ -119,9 +121,9 @@
             ],
             "angularLimits": [
                 {
-                    "vmax": 100,
-                    "amax": 1000,
-                    "jmax": 10000
+                    "vmax": 2,
+                    "amax": 10,
+                    "jmax": 100
                 }
             ],
             "kinChainParams": {
