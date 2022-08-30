@@ -18,6 +18,7 @@
     ],
     "joint": [
         {
+            "$comment": "0 = Joint 3 on machine (1 indexed)",
             "name": "0",
             "limits": [
                 {
@@ -26,12 +27,13 @@
                     "jmax": 8
                 }
             ],
-            "scale": 1333333.3333,
+            "scale": 66666.66667,
             "jointType": 1,
             "negLimit": -180,
             "posLimit": 180
         },
         {
+            "$comment": "Joint 2 on machine (1 indexed)",
             "name": "1",
             "limits": [
                 {
@@ -40,12 +42,13 @@
                     "jmax": 8
                 }
             ],
-            "scale": 1333333.3333,
+            "scale": 66666.66667,
             "jointType": 1,
-            "negLimit": -70,
+            "negLimit": -180,
             "posLimit": 110
         },
         {
+            "$comment": "Joint 1 on machine (1 indexed)",
             "name": "2",
             "limits": [
                 {
@@ -54,12 +57,13 @@
                     "jmax": 8
                 }
             ],
-            "scale": 1333333.3333,
+            "scale": 66666.66667,
             "jointType": 1,
             "negLimit": -10,
             "posLimit": 145
         },
         {
+            "$comment": "Joint 5 on machine (1 indexed)",
             "name": "3",
             "limits": [
                 {
@@ -68,12 +72,13 @@
                     "jmax": 8
                 }
             ],
-            "scale": 2777777.7777,
+            "scale": 1333333.333,
             "jointType": 1,
             "negLimit": -145,
             "posLimit": 145
         },
         {
+            "$comment": "Joint 4 on machine (1 indexed)",
             "name": "4",
             "limits": [
                 {
@@ -82,7 +87,8 @@
                     "jmax": 8
                 }
             ],
-            "scale": 2777777.7777
+            "scale": 1333333.333,
+            "jointType": 1
         }
     ],
     "kinematicsConfiguration": [
