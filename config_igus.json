@@ -18,71 +18,76 @@
     ],
     "joint": [
         {
+            "$comment": "0 = Joint 3 on machine (1 indexed) - 50:1 gear ratio",
             "name": "0",
             "limits": [
                 {
-                    "vmax": 2,
-                    "amax": 4,
-                    "jmax": 8
+                    "vmax": 0.02,
+                    "amax": 0.2,
+                    "jmax": 2
                 }
             ],
-            "scale": 1333333.3333,
+            "scale": 79577.47155,
             "jointType": 1,
             "negLimit": -10,
             "posLimit": 145
         },
         {
+            "$comment": "1 = Joint 2 on machine (1 indexed) - 48:1 gear ratio",
             "name": "1",
             "limits": [
                 {
-                    "vmax": 2,
-                    "amax": 4,
-                    "jmax": 8
+                    "vmax": 0.02,
+                    "amax": 0.2,
+                    "jmax": 2
                 }
             ],
-            "scale": 1333333.3333,
+            "scale": 76394.37268,
             "jointType": 1,
             "negLimit": -70,
             "posLimit": 110
         },
         {
+            "$comment": "2 = Joint 1 on machine (1 indexed) - 48:1 gear ratio",
             "name": "2",
             "limits": [
                 {
-                    "vmax": 2,
-                    "amax": 4,
-                    "jmax": 8
+                    "vmax": 0.02,
+                    "amax": 0.2,
+                    "jmax": 2
                 }
             ],
-            "scale": 1333333.3333,
+            "scale": 76394.37268,
             "jointType": 1,
             "negLimit": -180,
             "posLimit": 180
         },
         {
+            "$comment": "3 = Joint 5 on machine (1 indexed) - 28:1 gear ratio",
             "name": "3",
             "limits": [
                 {
-                    "vmax": 2,
-                    "amax": 4,
-                    "jmax": 8
+                    "vmax": 0.02,
+                    "amax": 0.2,
+                    "jmax": 2
                 }
             ],
-            "scale": 2777777.7777,
+            "scale": 44563.38407,
             "jointType": 1,
             "negLimit": -270,
             "posLimit": 270
         },
         {
+            "$comment": "4 = Joint 4 on machine (1 indexed) - 38:1 gear ratio",
             "name": "4",
             "limits": [
                 {
-                    "vmax": 2,
-                    "amax": 4,
-                    "jmax": 8
+                    "vmax": 0.02,
+                    "amax": 0.2,
+                    "jmax": 2
                 }
             ],
-            "scale": 2777777.7777,
+            "scale": 60478.87837,
             "negLimit": -145,
             "posLimit": 145
         }
