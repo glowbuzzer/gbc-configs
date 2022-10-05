@@ -2,7 +2,7 @@
     "$log": "STAUBLI TX40 CONFIG ACTIVE",
     "machine": [
         {
-            "name": "default",
+            "name": "STAUBLI TX40",
             "busCycleTime": 4
         }
     ],

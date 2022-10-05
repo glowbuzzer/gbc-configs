@@ -2,9 +2,8 @@
     "$log": "GENERIC CONFIG ACTIVE",
     "machine": [
         {
-            "name": "default",
-            "busCycleTime": 4,
-            "statusFrequency": 20
+            "name": "GENERIC CARTESIAN",
+            "busCycleTime": 4
         }
     ],
     "stream": [
