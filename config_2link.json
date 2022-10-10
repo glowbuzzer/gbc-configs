@@ -21,9 +21,9 @@
             "name": "0",
             "limits": [
                 {
-                    "vmax": 0.02,
-                    "amax": 0.2,
-                    "jmax": 2
+                    "vmax": 0.2,
+                    "amax": 2,
+                    "jmax": 20
                 }
             ],
             "scale": 79577.47155,
@@ -35,9 +35,9 @@
             "name": "1",
             "limits": [
                 {
-                    "vmax": 0.02,
-                    "amax": 0.2,
-                    "jmax": 2
+                    "vmax": 0.2,
+                    "amax": 2,
+                    "jmax": 20
                 }
             ],
             "scale": 76394.37268,
@@ -55,7 +55,7 @@
                 1
             ],
             "participatingJointsCount": 2,
-            "kinematicsConfigurationType": 6,
+            "kinematicsConfigurationType": 7,
             "extentsX": [
                 -1000,
                 1000
