@@ -55,7 +55,7 @@
                 1
             ],
             "participatingJointsCount": 2,
-            "kinematicsConfigurationType": 7,
+            "kinematicsConfigurationType": 6,
             "extentsX": [
                 -1000,
                 1000
