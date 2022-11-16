@@ -20,43 +20,43 @@
         {
             "name": "point1",
             "translation": {
-                "x": 500,
-                "y": 0,
-                "z": 0
+                "x": 210,
+                "y": 210,
+                "z": 40
             },
-            "frameIndex": 0,
+            "frameIndex" : 0,
             "configuration": 0
         },
         {
             "name": "point2",
             "translation": {
-                "x": 500,
-                "y": 100,
-                "z": 0
+                "x": 210,
+                "y": 390,
+                "z": 40
             },
             "rotation": {
-                "x": 0.3826834,
+                "x": 0,
                 "y": 0,
                 "z": 0,
-                "w": 0.9238795
+                "w": 1
             },
             "configuration": 0
         },
         {
             "name": "point3",
             "translation": {
-                "x": 500,
-                "y": 200,
-                "z": 0
+                "x": 290,
+                "y": 210,
+                "z": 40
             },
             "configuration": 0
         },
         {
             "name": "point4",
             "translation": {
-                "x": 500,
-                "y": 300,
-                "z": 0
+                "x": 290,
+                "y": 390,
+                "z": 40
             },
             "configuration": 0
         }
