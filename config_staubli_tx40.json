@@ -83,8 +83,8 @@
         },
         {
             "name": "part",
-            "absRel": 1,
-            "parent": 2,
+            "positionReference": 1,
+            "parentFrameIndex": 2,
             "translation": {
                 "x": 10,
                 "y": 0,
