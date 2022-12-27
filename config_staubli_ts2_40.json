@@ -1,8 +1,8 @@
 {
-    "$log": "2540 ROUTER CONFIG ACTIVE",
+    "$log": "STAUBLI TS2-50 SCARA",
     "machine": [
         {
-            "name": "2540 ROUTER",
+            "name": "STAUBLI TS2-50 SCARA",
             "busCycleTime": 4
         }
     ],
@@ -26,12 +26,14 @@
             "jointType": 1,
             "limits": [
                 {
-                    "vmax": 20000,
-                    "amax": 400000,
-                    "jmax": 800000
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 100000
+            "scale": 10000000,
+            "negLimit": -180,
+            "posLimit": 180
         },
         {
             "name": "1",
@@ -39,42 +41,50 @@
             "jointType": 1,
             "limits": [
                 {
-                    "vmax": 20000,
-                    "amax": 400000,
-                    "jmax": 800000
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 100000
+            "scale": 10000000,
+            "negLimit": -143,
+            "posLimit": 141
+
         },
         {
             "name": "2",
             "finiteContinuous": 1,
-            "jointType": 1,
+            "jointType": 0,
             "limits": [
                 {
-                    "vmax": 20000,
-                    "amax": 40000,
-                    "jmax": 800000
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 100000
+            "scale": 10000000,
+            "negLimit": -0.1,
+            "posLimit": 210.1
+
         },
         {
-            "name": "aux",
-            "finiteContinuous": 0,
-            "negLimit": -180,
-            "posLimit": 180,
+            "name": "3",
+            "finiteContinuous": 1,
             "jointType": 1,
             "limits": [
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
-            "scale": 1000
+            "scale": 10000000,
+            "negLimit": -360,
+            "posLimit": 360
+
         }
     ],
+
     "kinematicsConfiguration": [
         {
             "name": "Default",
@@ -82,105 +92,57 @@
             "participatingJoints": [
                 0,
                 1,
-                2
+                2,
+                3
             ],
-            "participatingJointsCount": 3,
-            "kinematicsConfigurationType": 4,
+            "participatingJointsCount": 4,
+            "kinematicsConfigurationType": 10,
             "extentsX": [
                 -1000,
                 1000
             ],
             "extentsY": [
                 -1000,
-                1000
+                100
             ],
             "extentsZ": [
-                -500,
-                500
+                -1000,
+                1000
             ],
             "linearLimits": [
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 },
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 8000
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 },
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 8000
+                    "vmax": 2,
+                    "amax": 4,
+                    "jmax": 8
                 }
             ],
             "angularLimits": [
                 {
-                    "vmax": 100,
-                    "amax": 1000,
-                    "jmax": 10000
+                    "vmax": 1,
+                    "amax": 10,
+                    "jmax": 100
                 }
             ],
             "kinChainParams": {
-                "numRows": 6,
+                "numRows": 4,
                 "numCols": 5,
                 "data": [
-                    -90,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    -90,
-                    225,
-                    0,
-                    90,
-                    0,
-                    90,
-                    0,
-                    35,
-                    -90,
-                    0,
-                    0,
-                    0,
-                    225,
-                    90,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    65
+                    0,0,0,220,0,
+                    0,0,0,240,0,
+                    180,0,0,0,0,
+                    0,0,0,0,0
                 ]
             }
-        },
-        {
-            "name": "Aux",
-            "frameIndex": 0,
-            "participatingJoints": [
-                3
-            ],
-            "participatingJointsCount": 1,
-            "kinematicsConfigurationType": 0,
-            "linearLimits": [
-                {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
-                }
-            ],
-            "angularLimits": [
-                {
-                    "vmax": 100,
-                    "amax": 1000,
-                    "jmax": 10000
-                }
-            ]
         }
     ],
     "din": [
@@ -287,14 +249,13 @@
                 "w": 1
             },
             "translation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
+                "x": 100,
+                "z": 800
             }
         },
         {
             "name": "Machine",
-            "positionReference": 1,
+            "positionReference": 0,
             "parentFrameIndex": 0,
             "rotation": {
                 "x": 0,
@@ -303,30 +264,10 @@
                 "w": 1
             },
             "translation": {
-                "x": 85,
-                "y": 65,
-                "z": 185
+                "x": 0,
+                "z": 0
             }
-        },
-        {
-            "name": "Default2",
-            "rotation": {
-                "x": 0.7071068,
-                "y": 0,
-                "z": 0,
-                "w": 0.7071068
-            },
-            "translation": {
-                "x": 50,
-                "y": 100,
-                "z": 100
-            }
-        },
-        {
-            "name": "Translate 10",
-            "translation": {
-                "x": 10
-            }
+
         },
         {
             "name": "Rotate 90",
@@ -365,15 +306,7 @@
         {
             "name": "Tool 1",
             "diameter": 10,
-            "rotation": {
-                "x": 1,
-                "y": 0,
-                "z": 0,
-                "w": 1
-            },
             "translation": {
-                "x":50,
-                "y":10,
                 "z": -10
             }
         },

@@ -1,8 +1,8 @@
 {
-    "$log": "2540 ROUTER CONFIG ACTIVE",
+    "$log": "STEWART PLATFORM",
     "machine": [
         {
-            "name": "2540 ROUTER",
+            "name": "STEWART PLATFORM",
             "busCycleTime": 4
         }
     ],
@@ -23,164 +23,171 @@
         {
             "name": "0",
             "finiteContinuous": 1,
-            "jointType": 1,
+            "jointType": 0,
             "limits": [
                 {
-                    "vmax": 20000,
-                    "amax": 400000,
-                    "jmax": 800000
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
                 }
             ],
-            "scale": 100000
+            "scale": 100000,
+            "negLimit": -50,
+            "posLimit": 400
         },
         {
             "name": "1",
             "finiteContinuous": 1,
-            "jointType": 1,
+            "jointType": 0,
             "limits": [
                 {
-                    "vmax": 20000,
-                    "amax": 400000,
-                    "jmax": 800000
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
                 }
             ],
-            "scale": 100000
+            "scale": 100000,
+            "negLimit": -50,
+            "posLimit": 400
+
         },
         {
             "name": "2",
             "finiteContinuous": 1,
-            "jointType": 1,
+            "jointType": 0,
             "limits": [
                 {
-                    "vmax": 20000,
-                    "amax": 40000,
-                    "jmax": 800000
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
                 }
             ],
-            "scale": 100000
+            "scale": 100000,
+            "negLimit": -50,
+            "posLimit": 400
+
         },
         {
-            "name": "aux",
-            "finiteContinuous": 0,
-            "negLimit": -180,
-            "posLimit": 180,
-            "jointType": 1,
+            "name": "3",
+            "finiteContinuous": 1,
+            "jointType": 0,
             "limits": [
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
                 }
             ],
-            "scale": 1000
+            "scale": 100000,
+            "negLimit": -50,
+            "posLimit": 400
+
+        },
+        {
+            "name": "4",
+            "finiteContinuous": 1,
+            "jointType": 0,
+            "limits": [
+                {
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
+                }
+            ],
+            "scale": 100000,
+            "negLimit": -50,
+            "posLimit": 400
+
+        },
+        {
+            "name": "5",
+            "finiteContinuous": 1,
+            "jointType": 0,
+            "limits": [
+                {
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
+                }
+            ],
+            "scale": 100000,
+            "negLimit": -50,
+            "posLimit": 400
+
         }
+
     ],
+
     "kinematicsConfiguration": [
         {
             "name": "Default",
-            "frameIndex": 1,
+            "frameIndex": 0,
             "participatingJoints": [
                 0,
                 1,
-                2
+                2,
+                3,
+                4,
+                5
             ],
-            "participatingJointsCount": 3,
-            "kinematicsConfigurationType": 4,
+            "participatingJointsCount": 6,
+            "kinematicsConfigurationType": 11,
             "extentsX": [
                 -1000,
                 1000
             ],
             "extentsY": [
                 -1000,
-                1000
+                100
             ],
             "extentsZ": [
-                -500,
-                500
+                -1000,
+                1000
             ],
             "linearLimits": [
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
                 },
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 8000
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
                 },
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 8000
+                    "vmax": 20,
+                    "amax": 40,
+                    "jmax": 80
                 }
             ],
             "angularLimits": [
                 {
-                    "vmax": 100,
-                    "amax": 1000,
-                    "jmax": 10000
+                    "vmax": 1,
+                    "amax": 10,
+                    "jmax": 100
                 }
             ],
             "kinChainParams": {
-                "numRows": 6,
-                "numCols": 5,
+                "numRows": 14,
+                "numCols": 3,
                 "data": [
-                    -90,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    -90,
-                    225,
-                    0,
-                    90,
-                    0,
-                    90,
-                    0,
-                    35,
-                    -90,
-                    0,
-                    0,
-                    0,
-                    225,
-                    90,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    65
+                    -22.189, -168.545, 0,
+                    22.189, -168.545, 0,
+                    157.06, 65.0562, 0,
+                    134.87, 103.4894, 0,
+                    -134.87, 103.4894, 0,
+                    -157.059, 65.056, 0,
+                    -21.706, -123.1, 0,
+                    21.706, -123.1, 0,
+                    117.4615, 42.7525, 0,
+                    95.7555, 80.34845, 0,
+                    -95.7555, 80.34845, 0,
+                    -117.4615, 42.7525, 0,
+                    0,0,300,
+                    303.422941,0,0
                 ]
             }
-        },
-        {
-            "name": "Aux",
-            "frameIndex": 0,
-            "participatingJoints": [
-                3
-            ],
-            "participatingJointsCount": 1,
-            "kinematicsConfigurationType": 0,
-            "linearLimits": [
-                {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
-                }
-            ],
-            "angularLimits": [
-                {
-                    "vmax": 100,
-                    "amax": 1000,
-                    "jmax": 10000
-                }
-            ]
         }
     ],
     "din": [
@@ -288,13 +295,12 @@
             },
             "translation": {
                 "x": 0,
-                "y": 0,
                 "z": 0
             }
         },
         {
             "name": "Machine",
-            "positionReference": 1,
+            "positionReference": 0,
             "parentFrameIndex": 0,
             "rotation": {
                 "x": 0,
@@ -303,30 +309,10 @@
                 "w": 1
             },
             "translation": {
-                "x": 85,
-                "y": 65,
-                "z": 185
+                "x": 0,
+                "z": 0
             }
-        },
-        {
-            "name": "Default2",
-            "rotation": {
-                "x": 0.7071068,
-                "y": 0,
-                "z": 0,
-                "w": 0.7071068
-            },
-            "translation": {
-                "x": 50,
-                "y": 100,
-                "z": 100
-            }
-        },
-        {
-            "name": "Translate 10",
-            "translation": {
-                "x": 10
-            }
+
         },
         {
             "name": "Rotate 90",
@@ -365,15 +351,7 @@
         {
             "name": "Tool 1",
             "diameter": 10,
-            "rotation": {
-                "x": 1,
-                "y": 0,
-                "z": 0,
-                "w": 1
-            },
             "translation": {
-                "x":50,
-                "y":10,
                 "z": -10
             }
         },
