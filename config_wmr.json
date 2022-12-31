@@ -1,8 +1,8 @@
 {
-    "$log": "2LINK MACHINE CONFIG ACTIVE",
+    "$log": "WMR CONFIG ACTIVE",
     "machine": [
         {
-            "name": "2LINK",
+            "name": "WMR",
             "busCycleTime": 4
         }
     ],
@@ -21,31 +21,32 @@
             "name": "0",
             "limits": [
                 {
-                    "vmax": 0.2,
-                    "amax": 2,
-                    "jmax": 20
+                    "vmax": 2,
+                    "amax": 20,
+                    "jmax": 200
                 }
             ],
             "scale": 79577.47155,
-            "jointType": 1,
-            "negLimit": -180,
-            "posLimit": 180
+            "jointType": 1
         },
         {
             "name": "1",
             "limits": [
                 {
-                    "vmax": 0.2,
-                    "amax": 2,
-                    "jmax": 20
+                    "vmax": 2,
+                    "amax": 20,
+                    "jmax": 200
                 }
             ],
             "scale": 76394.37268,
-            "jointType": 1,
-            "negLimit": -180,
-            "posLimit": 180
+            "jointType": 1
         }
     ],
+    "frames": [
+        {
+            "name": "default"
+        }
+        ],
     "kinematicsConfiguration": [
         {
             "name": "default",
@@ -55,7 +56,7 @@
                 1
             ],
             "participatingJointsCount": 2,
-            "kinematicsConfigurationType": 6,
+            "kinematicsConfigurationType": 14,
             "extentsX": [
                 -1000,
                 1000
