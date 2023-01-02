@@ -19,12 +19,18 @@
     "points": [
         {
             "name": "point1",
+            "frameIndex": 0,
             "translation": {
                 "x": 210,
                 "y": 210,
-                "z": 40
+                "z": 400
             },
-            "frameIndex" : 0,
+            "rotation": {
+                "x": 1,
+                "y": 0,
+                "z": 0,
+                "w": 6.123233995736766e-17
+            },
             "configuration": 0
         },
         {
@@ -213,9 +219,9 @@
             ],
             "angularLimits": [
                 {
-                    "vmax": 100,
-                    "amax": 1000,
-                    "jmax": 10000
+                    "vmax": 1,
+                    "amax": 10,
+                    "jmax": 100
                 }
             ],
             "kinChainParams": {
