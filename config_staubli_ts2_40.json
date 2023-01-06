@@ -111,19 +111,19 @@
             ],
             "linearLimits": [
                 {
-                    "vmax": 2,
-                    "amax": 4,
-                    "jmax": 8
+                    "vmax": 40,
+                    "amax": 80,
+                    "jmax": 160
                 },
                 {
-                    "vmax": 2,
-                    "amax": 4,
-                    "jmax": 8
+                    "vmax": 40,
+                    "amax": 80,
+                    "jmax": 160
                 },
                 {
-                    "vmax": 2,
-                    "amax": 4,
-                    "jmax": 8
+                    "vmax": 40,
+                    "amax": 80,
+                    "jmax": 160
                 }
             ],
             "angularLimits": [
