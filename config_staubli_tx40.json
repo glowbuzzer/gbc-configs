@@ -198,6 +198,7 @@
             ],
             "participatingJointsCount": 6,
             "kinematicsConfigurationType": 1,
+            "supportedConfigurationBits": 7,
             "extentsX": [
                 -1000,
                 1000
