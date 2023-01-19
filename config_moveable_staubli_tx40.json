@@ -1,10 +1,9 @@
 {
-    "$log": "STAUBLI TX40 CONFIG ACTIVE",
+    "$log": "MOVEABLE STAUBLI TX40 CONFIG ACTIVE",
     "machine": [
         {
-            "name": "STAUBLI TX40",
-            "busCycleTime": 4,
-            "statusFrequency": 20
+            "name": "MOVEABLE STAUBLI TX40",
+            "busCycleTime": 4
         }
     ],
     "stream": [
@@ -183,6 +182,20 @@
             "jointType": 1,
             "negLimit": -270,
             "posLimit": 270
+        },
+        {
+            "name": "6",
+            "limits": [
+                {
+                    "vmax": 1,
+                    "amax": 8,
+                    "jmax": 160
+                }
+            ],
+            "scale": 10000,
+            "jointType": 0,
+            "negLimit": -270,
+            "posLimit": 270
         }
     ],
     "kinematicsConfiguration": [
@@ -195,10 +208,11 @@
                 2,
                 3,
                 4,
-                5
+                5,
+                6
             ],
-            "participatingJointsCount": 6,
-            "kinematicsConfigurationType": 1,
+            "participatingJointsCount": 7,
+            "kinematicsConfigurationType": 15,
             "extentsX": [
                 -1000,
                 1000
