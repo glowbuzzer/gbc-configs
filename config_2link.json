@@ -56,6 +56,7 @@
             ],
             "participatingJointsCount": 2,
             "kinematicsConfigurationType": 6,
+            "supportedConfigurationBits": 1,
             "extentsX": [
                 -1000,
                 1000
@@ -117,6 +118,88 @@
                     0,
                     65
                 ]
+            }
+        }
+    ],
+    "points": [
+        {
+            "name": "point1",
+            "frameIndex": 0,
+            "translation": {
+                "x": 210,
+                "y": 210,
+                "z": 400
+            },
+            "rotation": {
+                "x": 1,
+                "y": 0,
+                "z": 0,
+                "w": 6.123233995736766e-17
+            },
+            "configuration": 0
+        },
+        {
+            "name": "point2",
+            "translation": {
+                "x": 210,
+                "y": 390,
+                "z": 40
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+            },
+            "configuration": 0
+        },
+        {
+            "name": "point3",
+            "translation": {
+                "x": 290,
+                "y": 210,
+                "z": 40
+            },
+            "configuration": 0
+        },
+        {
+            "name": "point4",
+            "translation": {
+                "x": 290,
+                "y": 390,
+                "z": 40
+            },
+            "configuration": 0
+        }
+    ],
+    "frames": [
+        {
+            "name": "default"
+        },
+        {
+            "name": "robot",
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        {
+            "name": "pallet",
+            "translation": {
+                "x": 100,
+                "y": 100,
+                "z": 0
+            }
+        },
+        {
+            "name": "part",
+            "positionReference": 1,
+            "parentFrameIndex": 2,
+            "translation": {
+                "x": 10,
+                "y": 0,
+                "z": 0
             }
         }
     ],
