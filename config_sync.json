@@ -25,48 +25,93 @@
     "joint": [
         {
             "name": "0",
-            "finiteContinuous": 1,
-            "jointType": 1,
             "limits": [
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
+                    "vmax": 1.5,
+                    "amax": 8,
+                    "jmax": 160
                 }
             ],
-            "scale": 1000
+            "scale": 100000,
+            "jointType": 1,
+            "negLimit": -180,
+            "posLimit": 180
         },
         {
             "name": "1",
-            "finiteContinuous": 1,
-            "jointType": 1,
             "limits": [
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
+                    "vmax": 1.5,
+                    "amax": 8,
+                    "jmax": 160
                 }
             ],
-            "scale": 1000
+            "scale": 100000,
+            "jointType": 1,
+            "negLimit": -125,
+            "posLimit": 125
         },
         {
             "name": "2",
-            "finiteContinuous": 1,
-            "jointType": 1,
             "limits": [
                 {
-                    "vmax": 200,
-                    "amax": 4000,
-                    "jmax": 80000
+                    "vmax": 1.5,
+                    "amax": 8,
+                    "jmax": 160
                 }
             ],
-            "scale": 1000
+            "scale": 100000,
+            "jointType": 1,
+            "negLimit": -138,
+            "posLimit": 138
+        },
+        {
+            "name": "3",
+            "limits": [
+                {
+                    "vmax": 1.5,
+                    "amax": 8,
+                    "jmax": 160
+                }
+            ],
+            "scale": 100000,
+            "jointType": 1,
+            "negLimit": -270,
+            "posLimit": 270
+        },
+        {
+            "name": "4",
+            "limits": [
+                {
+                    "vmax": 1.5,
+                    "amax": 8,
+                    "jmax": 160
+                }
+            ],
+            "scale": 100000,
+            "jointType": 1,
+            "negLimit": -120,
+            "posLimit": 133.5
+        },
+        {
+            "name": "5",
+            "limits": [
+                {
+                    "vmax": 1.8,
+                    "amax": 8,
+                    "jmax": 160
+                }
+            ],
+            "scale": 100000,
+            "jointType": 1,
+            "negLimit": -270,
+            "posLimit": 270
         },
         {
             "name": "M1J0",
             "finiteContinuous": 0,
-            "negLimit": -1000,
-            "posLimit": 1000,
+            "negLimit": -350,
+            "posLimit": 350,
             "jointType": 0,
             "limits": [
                 {
@@ -75,13 +120,13 @@
                     "jmax": 80000
                 }
             ],
-            "scale": 1000
+            "scale": 10000
         },
         {
             "name": "M1J1",
             "finiteContinuous": 0,
-            "negLimit": -1000,
-            "posLimit": 1000,
+            "negLimit": -350,
+            "posLimit": 350,
             "jointType": 0,
             "limits": [
                 {
@@ -90,54 +135,48 @@
                     "jmax": 80000
                 }
             ],
-            "scale": 1000
+            "scale": 10000
         }
     ],
     "kinematicsConfiguration": [
         {
-            "name": "Default",
-            "frameIndex": 0,
+            "name": "default",
+            "frameIndex": 1,
             "participatingJoints": [
                 0,
                 1,
-                2
+                2,
+                3,
+                4,
+                5
             ],
-            "participatingJointsCount": 3,
-            "kinematicsConfigurationType": 4,
+            "participatingJointsCount": 6,
+            "kinematicsConfigurationType": 1,
+            "supportedConfigurationBits": 7,
             "extentsX": [
-                -100,
-                100
+                -1000,
+                1000
             ],
             "extentsY": [
-                -100,
-                100
+                -1000,
+                1000
             ],
             "extentsZ": [
-                -100,
-                100
+                -325,
+                840
             ],
             "linearLimits": [
                 {
-                    "vmax": 200,
+                    "vmax": 500,
                     "amax": 4000,
                     "jmax": 80000
-                },
-                {
-                    "vmax": 10,
-                    "amax": 200,
-                    "jmax": 4000
-                },
-                {
-                    "vmax": 20,
-                    "amax": 400,
-                    "jmax": 8000
                 }
             ],
             "angularLimits": [
                 {
-                    "vmax": 100,
-                    "amax": 1000,
-                    "jmax": 10000
+                    "vmax": 1.5,
+                    "amax": 10,
+                    "jmax": 100
                 }
             ],
             "kinChainParams": {
@@ -181,7 +220,7 @@
             "name": "Aux",
             "frameIndex": 0,
             "participatingJoints": [
-                3, 4
+                6, 7
             ],
             "participatingJointsCount": 2,
             "kinematicsConfigurationType": 4,
@@ -300,18 +339,11 @@
             "name": "Default"
         },
         {
-            "name": "Translate 10",
+            "name": "robot",
             "translation": {
-                "x": 10
-            }
-        },
-        {
-            "name": "Rotate 90",
-            "rotation": {
-                "x": 0.7071068,
+                "x": 0,
                 "y": 0,
-                "z": 0,
-                "w": 0.7071068
+                "z": 325
             }
         }
     ],
