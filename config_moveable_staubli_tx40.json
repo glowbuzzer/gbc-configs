@@ -70,13 +70,14 @@
     "frames": [
         {
             "name": "default"
+
         },
         {
             "name": "robot",
             "translation": {
                 "x": 0,
                 "y": 0,
-                "z": 325
+                "z": 725
             }
         },
         {

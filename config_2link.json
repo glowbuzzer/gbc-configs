@@ -3,7 +3,8 @@
     "machine": [
         {
             "name": "2LINK",
-            "busCycleTime": 4
+            "busCycleTime": 4,
+            "statusFrequency": 40
         }
     ],
     "stream": [

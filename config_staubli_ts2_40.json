@@ -250,25 +250,24 @@
                 "w": 1
             },
             "translation": {
-                "x": 100,
-                "z": 800
+                "x": 0,
+                "z": 0
             }
         },
         {
             "name": "Machine",
-            "positionReference": 0,
+            "positionReference": 1,
             "parentFrameIndex": 0,
             "rotation": {
                 "x": 0,
                 "y": 0,
-                "z": 0,
-                "w": 1
+                "z": 1,
+                "w": 0
             },
             "translation": {
                 "x": 0,
-                "z": 0
+                "z": 100
             }
-
         },
         {
             "name": "Rotate 90",
