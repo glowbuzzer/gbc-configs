@@ -97,9 +97,9 @@
             "name": "5",
             "limits": [
                 {
-                    "vmax": 1.8,
-                    "amax": 8,
-                    "jmax": 160
+                    "vmax": 3,
+                    "amax": 20,
+                    "jmax": 200
                 }
             ],
             "scale": 100000,
@@ -140,7 +140,7 @@
     ],
     "kinematicsConfiguration": [
         {
-            "name": "default",
+            "name": "Robot",
             "frameIndex": 1,
             "participatingJoints": [
                 0,
@@ -217,7 +217,7 @@
             }
         },
         {
-            "name": "Aux",
+            "name": "Puck",
             "frameIndex": 0,
             "participatingJoints": [
                 6, 7
@@ -349,21 +349,17 @@
     ],
     "points": [
         {
-            "name": "Origin"
-        },
-        {
-            "name": "X10",
+            "name": "Home",
             "translation": {
-                "x": 10
-            }
-        },
-        {
-            "name": "R90",
+                "x": 400,
+                "y": 35,
+                "z": 100
+            },
             "rotation": {
-                "x": 0.7071068,
-                "y": 0,
+                "x": 0,
+                "y": 1,
                 "z": 0,
-                "w": 0.7071068
+                "w": 0
             }
         }
     ],
@@ -410,17 +406,6 @@
         }
     ],
     "moveParameters": [
-        {
-            "name": "Default",
-            "amaxPercentage": 50,
-            "blendTimePercentage": 60,
-            "blendTolerance": 20,
-            "blendType": 0,
-            "jmaxPercentage": 10,
-            "limitConfigurationIndex": 0,
-            "toolIndex": 1,
-            "vmaxPercentage": 25
-        }
     ],
     "task": [
         {
