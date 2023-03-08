@@ -1,9 +1,10 @@
 {
-    "$log": "GENERIC CONFIG ACTIVE",
+    "$log": "TSYNC STAUBLI TX40 CONFIG ACTIVE",
     "machine": [
         {
-            "name": "GENERIC CARTESIAN",
-            "busCycleTime": 4
+            "name": "TSYNC STAUBLI TX40",
+            "busCycleTime": 4,
+            "statusFrequency": 50
         }
     ],
     "stream": [
