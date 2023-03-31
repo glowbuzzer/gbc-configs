@@ -25,10 +25,48 @@
     ],
     "points": [
         {
-            "name": "Thomas Home",
+            "name": "Point1",
             "translation": {
-                "x": 300
+                "x": 300,
+                "y": 100,
+                "z": 250
+            },
+            "rotation": {
+                "x": 0.6547971573,
+                "y": 0.266909503,
+                "z": 0.2669095029999014,
+                "w": 0.6547971573002419
             }
+        },
+        {
+            "name": "Point2",
+            "translation": {
+                "x": 300,
+                "y": -100,
+                "z": 250
+            },
+            "rotation": {
+                "x": -0.7071530001974361,
+                "y": -0.0000019988290900649497,
+                "z": 0.0000019990904168421206,
+                "w": 0.7070605591487714
+            },
+            "configuration": 0
+        },
+        {
+            "name": "Point3",
+            "translation": {
+                "x": 200,
+                "y": 0,
+                "z": 300
+            },
+            "rotation": {
+                "x": 0.7088173033,
+                "y": -0.0018869218,
+                "z": 0.7053870881,
+                "w": -0.0018777903
+            },
+            "configuration": 0
         }
     ],
     "frames": [
@@ -53,8 +91,8 @@
             "rotation": {
                 "x": 0,
                 "y": 0,
-                "z": 0,
-                "w": 1
+                "z": 1,
+                "w": 0
             }
         }
     ],
@@ -391,7 +429,7 @@
             "name": "default",
             "diameter": 10,
             "translation": {
-                "z": 0
+                "z": 40
             }
         },
         {
@@ -431,86 +469,12 @@
             }
         }
     ],
-    "din": [
-        {
-            "name": "0",
-            "inverted": 1
-        },
-        {
-            "name": "1",
-            "inverted": 0
-        },
-        {
-            "name": "2",
-            "inverted": 0
-        },
-        {
-            "name": "3",
-            "inverted": 0
-        }
-    ],
-    "dout": [
-        {
-            "name": "0",
-            "inverted": 0
-        },
-        {
-            "name": "1",
-            "inverted": 0
-        },
-        {
-            "name": "2",
-            "inverted": 0
-        },
-        {
-            "name": "3",
-            "inverted": 0
-        },
-        {
-            "name": "4",
-            "inverted": 0
-        },
-        {
-            "name": "5",
-            "inverted": 0
-        },
-        {
-            "name": "6",
-            "inverted": 0
-        },
-        {
-            "name": "7",
-            "inverted": 0
-        },
-        {
-            "name": "8",
-            "inverted": 0
-        },
-        {
-            "name": "9",
-            "inverted": 0
-        }
-    ],
-    "ain": [
-        {
-            "name": "0"
-        }
-    ],
-    "aout": [
-        {
-            "name": "0"
-        }
-    ],
-    "iin": [
-        {
-            "name": "0"
-        }
-    ],
-    "iout": [
-        {
-            "name": "0"
-        }
-    ],
+    "din": [],
+    "dout": [],
+    "ain": [],
+    "aout": [],
+    "iin": [],
+    "iout": [],
     "fieldbus": [
         {
             "jointCount": 12,
