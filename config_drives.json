@@ -2,13 +2,13 @@
   "$log": "DRIVES CONFIG ACTIVE",
   "machine": [
     {
-      "name": "drives",
+      "name": "DRIVES CONFIG",
       "busCycleTime": 4
     }
   ],
   "joint": [
     {
-      "name": "0",
+      "name": "J1",
       "limits": [
         {
           "vmax": 200,
@@ -16,10 +16,10 @@
           "jmax": 80000
         }
       ],
-      "scale": 133.33333333
+      "scale": 100000
     },
     {
-      "name": "1",
+      "name": "J2",
       "limits": [
         {
           "vmax": 200,
@@ -27,10 +27,10 @@
           "jmax": 80000
         }
       ],
-      "scale": 266.66666666
+      "scale": 100000
     },
     {
-      "name": "2",
+      "name": "J3",
       "limits": [
         {
           "vmax": 200,
@@ -38,7 +38,7 @@
           "jmax": 80000
         }
       ],
-      "scale": 1000
+      "scale": 100000
     }
   ],
   "fieldbus": [
