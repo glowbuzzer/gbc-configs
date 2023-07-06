@@ -4,7 +4,7 @@
         {
             "name": "STAUBLI TX40",
             "busCycleTime": 4,
-            "statusFrequency": 40
+            "statusFrequency": 100
         }
     ],
     "stream": [
