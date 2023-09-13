@@ -3,7 +3,7 @@
         {
             "name": "default",
             "busCycleTime": 1,
-            "statusFrequency": 200
+            "statusFrequency": 50
         }
     ],
     "stream": [
