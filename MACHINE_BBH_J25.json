@@ -1,0 +1,108 @@
+{
+  "machine_name": "MACHINE_BBH_J25",
+  "drives": {
+    "limits": [
+      {
+        "position_limit_max": 90,
+        "position_limit_min": -90,
+        "velocity_limit": 50,
+        "torque_limit": 50,
+        "max_motor_speed": 2500000,
+        "max_motor_torque": 4012
+      }
+    ]
+  },
+  "ethercat": {
+    "ecm_cycle_shift": 0,
+    "slaves": [
+      {
+        "name": "BBH_SCU_1_EC",
+        "optional": {
+          "is_configurable": false,
+          "is_set": true
+        },
+        "sdos": [
+        ]
+      },
+      {
+        "name": "EK1100",
+        "optional": {
+          "is_configurable": false,
+          "is_set": true
+        },
+        "sdos": [
+        ]
+      },
+      {
+        "name": "EL6021",
+        "optional": {
+          "is_configurable": true,
+          "is_set": false
+        },
+        "sdos": [
+          {
+            "datatype": 6,
+            "index": 16499,
+            "sub_index": 0,
+            "value": 10,
+            "length": 2
+          },
+          {
+            "datatype": 6,
+            "index": 16500,
+            "sub_index": 0,
+            "value": 3,
+            "length": 2
+          },
+          {
+            "datatype": 5,
+            "index": 16501,
+            "sub_index": 1,
+            "value": 1,
+            "length": 1
+          },
+          {
+            "datatype": 5,
+            "index": 16501,
+            "sub_index": 4,
+            "value": 0,
+            "length": 1
+          },
+          {
+            "datatype": 5,
+            "index": 16501,
+            "sub_index": 6,
+            "value": 1,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "name": "AW_J25_FSOE",
+        "optional": {
+          "is_configurable": false,
+          "is_set": true
+        },
+        "sdos": [
+          {
+            "datatype": 4,
+            "index": 24702,
+            "sub_index": 0,
+            "value": 1,
+            "length": 4
+          }
+        ]
+      }
+    ]
+  },
+  "gbem": {
+    "params": {
+      "cycle_time": 4,
+      "drive_state_change_timeout": 5000
+    },
+    "debug_params": {
+      "disable_drive_warn_check": false,
+      "disable_drive_limit_check": false
+    }
+  }
+}
