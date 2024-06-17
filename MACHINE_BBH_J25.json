@@ -19,7 +19,7 @@
     "slaves": [
       {
         "name": "BBH_SCU_1_EC",
-        "eep_name": "BBH_SCU_1_EC",
+        "eep_name": "SCU-1-EC",
         "optional": {
           "is_configurable": false,
           "is_set": true
