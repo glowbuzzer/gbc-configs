@@ -1,6 +1,8 @@
 {
   "machine_name": "MACHINE_BBH_J25",
+  "sub_machine_name": "NONE",
   "drives": {
+    "no_limits": true,
     "limits": [
       {
         "position_limit_max": 90,
@@ -17,6 +19,7 @@
     "slaves": [
       {
         "name": "BBH_SCU_1_EC",
+        "eep_name": "BBH_SCU_1_EC",
         "optional": {
           "is_configurable": false,
           "is_set": true
@@ -26,6 +29,7 @@
       },
       {
         "name": "EK1100",
+        "eep_name": "EK1100",
         "optional": {
           "is_configurable": false,
           "is_set": true
@@ -35,6 +39,7 @@
       },
       {
         "name": "EL6021",
+        "eep_name": "EL6021",
         "optional": {
           "is_configurable": true,
           "is_set": false
@@ -79,6 +84,7 @@
       },
       {
         "name": "AW_J25_FSOE",
+        "eep_name": "somanet",
         "optional": {
           "is_configurable": false,
           "is_set": true
