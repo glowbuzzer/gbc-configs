@@ -5,8 +5,8 @@
     "no_limits": true,
     "limits": [
       {
-        "position_limit_max": 90,
-        "position_limit_min": -90,
+        "position_limit_max": 36000,
+        "position_limit_min": -36000,
         "velocity_limit": 50,
         "torque_limit": 50,
         "max_motor_speed": 2500000,
