@@ -1,5 +1,5 @@
 {
-  "machine_name": "MACHINE_AW_6DOF",
+  "machine_name": "MACHINE_AW_6DOF_FSOE",
   "sub_machine_name": "L2",
   "drives": {
     "no_limits": false,
@@ -57,6 +57,16 @@
   "ethercat": {
     "ecm_cycle_shift": 0,
     "slaves": [
+        {
+          "name": "BBH_SCU_1_EC",
+          "eep_name": "SCU-1-EC",
+          "optional": {
+            "is_configurable": false,
+            "is_enabled": true
+          },
+          "sdos": [
+          ]
+        },
       {
         "name": "EK1100",
         "eep_name": "EK1100",
@@ -137,7 +147,7 @@
         "eep_name": "somanet",
         "optional": {
           "is_configurable": false,
-          "isenabledset": false
+          "is_enabled": false
         },
         "sdos": [
           {
@@ -182,7 +192,7 @@
         "eep_name": "somanet",
         "optional": {
           "is_configurable": false,
-          "is_enabledset": false
+          "is_enabled": false
         },
         "sdos": [
             {

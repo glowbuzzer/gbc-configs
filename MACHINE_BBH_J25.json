@@ -22,7 +22,7 @@
         "eep_name": "SCU-1-EC",
         "optional": {
           "is_configurable": false,
-          "is_set": true
+          "is_enabled": true
         },
         "sdos": [
         ]
@@ -32,7 +32,7 @@
         "eep_name": "EK1100",
         "optional": {
           "is_configurable": false,
-          "is_set": true
+          "is_enabled": true
         },
         "sdos": [
         ]
@@ -42,7 +42,7 @@
         "eep_name": "EL6021",
         "optional": {
           "is_configurable": true,
-          "is_set": false
+          "is_enabled": false
         },
         "sdos": [
           {
@@ -87,7 +87,7 @@
         "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
-          "is_set": true
+          "is_enabled": true
         },
         "sdos": [
           {
