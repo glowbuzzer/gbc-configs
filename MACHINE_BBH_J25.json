@@ -84,7 +84,7 @@
       },
       {
         "name": "AW_J25_FSOE",
-        "eep_name": "SOMANET",
+        "eep_name": "somanet",
         "optional": {
           "is_configurable": false,
           "is_enabled": true
