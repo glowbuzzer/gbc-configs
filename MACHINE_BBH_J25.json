@@ -42,7 +42,7 @@
         "eep_name": "EL6021",
         "optional": {
           "is_configurable": true,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
           {
