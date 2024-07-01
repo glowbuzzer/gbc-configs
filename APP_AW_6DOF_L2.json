@@ -1,0 +1,758 @@
+{
+  "din": [
+    {
+      "name": "Safe Stop",
+      "description": "EL1008 Channel 1"
+    },
+    {
+      "name": "Software Stop",
+      "description": "EL1008 Channel 2"
+    },
+    {
+      "name": "Arm 48V Supply",
+      "description": "EL1008 Channel 3"
+    },
+    {
+      "name": "RC Light Signal",
+      "description": "EL1008 Channel 4"
+    },
+    {
+      "name": "Braking Chopper Error",
+      "description": "EL1008 Channel 5"
+    },
+    {
+      "name": "Tool 1",
+      "description": "EL1008 Channel 6"
+    },
+    {
+      "name": "Tool 2",
+      "description": "EL1008 Channel 7"
+    },
+    {
+      "name": "UNUSED INPUT 1",
+      "description": "EL1008 Channel 8"
+    }
+  ],
+  "dout": [
+
+    {
+      "name": "SPARE OUTPUT 1",
+      "description": "EL2008 Channel 5"
+    },
+    {
+      "name": "Tool 1",
+      "description": "EL2008 Channel 6"
+    },
+    {
+      "name": "Tool 2",
+      "description": "EL2008 Channel 7"
+    },
+    {
+      "name": "SPARE OUTPUT 2",
+      "description": "EL2008 Channel 8"
+    }
+  ],
+  "stream": [
+    {
+      "name": "default"
+    }
+  ],
+  "soloActivity": [
+    {
+      "name": "default"
+    }
+  ],
+  "machine": [
+    {
+      "name": "AWTUBE L2",
+      "busCycleTime": 4,
+      "heartbeatTimeout": 15000,
+      "statusFrequency": 150
+    }
+  ],
+  "safetyDin": [
+    {
+      "name": "safety_state",
+        "description": "0 safety error, 1 no safety error"
+    },
+    {
+      "name": "safe_stop",
+      "description": "0 robot is in safe stop, 1 robot is not in safe stop"
+    },
+    {
+      "name": "reduce_speed",
+      "description": "0 reduce speed, 1 no reduce speed"
+    },
+    {
+      "name": "pause",
+      "description": "0 pause motion, 1 no pause"
+    },
+    {
+      "name": "override",
+      "description": "0 normal, 1 override - override mutes all safety functions"
+    },
+    {
+      "name": "reset_needed",
+      "description": "0 no reset needed, 1 reset needed"
+    },
+    {
+      "name": "mode",
+      "description": "0 manual mode, 1 auto mode"
+    },
+    {
+      "name": "restart_ack_needed",
+      "description": "0 no ack needed, 1 safety functions require an ack"
+    },
+    {
+      "name": "motion_enabled",
+      "description": "For manual mode - 1 motion enabled, 0 motion disabled (enabling switch)"
+    },
+    {
+      "name": "safe_pos_valid",
+      "description": "All joints - 0 safe position not valid, 1 safe position valid",
+      "type": 2
+    },
+    {
+      "name": "any_j_sto",
+      "description": "1 any joint in STO state (disabled)",
+      "type": 1
+    },
+    {
+      "name": "any_j_ss1",
+      "description": "1 any joint is in SS1 state",
+      "type": 1
+    },
+    {
+      "name": "any_j_ss2",
+      "description": "1 any joint is in SS2 state",
+      "type": 1
+    },
+    {
+      "name": "any_j_sbc",
+      "description": "1 any joint is in SBC state",
+      "type": 1
+    },
+    {
+      "name": "any_j_sos",
+      "description": "1 any joint is in SOS state",
+      "type": 1
+    },
+    {
+      "name": "drives_over_temp",
+      "description": "0 no over temp, 1 over temp",
+      "type": 2
+    },
+    {
+      "name": "drives_error",
+      "description": "0 no error, 1 error",
+      "type": 1
+    },
+    {
+      "name": "fault_tcp_sls",
+      "description": "0 fault, 1 no fault",
+      "type": 1
+    },
+    {
+      "name": "fault_tcp_swm",
+      "description": "0 fault, 1 no fault",
+      "type": 1
+    },
+    {
+      "name": "fault_joints_slp",
+      "description": "0 fault, 1 no fault",
+      "type": 1
+    },
+    {
+      "name": "fault_pause_violation",
+      "description": "0 fault, 1 no fault",
+      "type": 1
+    }
+  ],
+  "safetyDout": [
+    {
+      "name": "error_ack_cmd",
+      "description": "acknowledge a safety error"
+    },
+
+    {
+      "name": "manual_mode_bit_1",
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING"
+
+    },
+    {
+      "name": "manual_mode_bit_2",
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING"
+    },
+    {
+      "name": "manual_mode_bit_3",
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING"
+    },
+    {
+      "name": "reset_safe_pos",
+      "description": "reset safe position - only in override"
+    },
+    {
+      "name": "test_ss0",
+      "description": "signal ss0 - for testing"
+    },
+    {
+      "name": "test_ss1",
+      "description": "signal ss1 - for testing"
+    },
+    {
+      "name": "test_ss2",
+      "description": "signal ss3 - for testing"
+    },
+    {
+      "name": "test_sos",
+      "description": "signal sos - for testing"
+    },
+    {
+      "name": "test_sbc",
+      "description": "signal sbc - for testing"
+    }
+  ],
+  "ain": [
+    {
+      "name": "Analog 1"
+    }
+  ],
+  "iin": [
+    {
+      "name": "Integer 1"
+    }
+  ],
+  "uiin": [
+    {
+      "name": "Unsigned Int 1"
+    }
+  ],
+  "externalIin": [
+    {
+      "name": "External Int 1"
+    }
+  ],
+  "externalUiin": [
+    {
+      "name": "External Unsigned Int 1"
+    }
+  ],
+  "aout": [
+    {
+      "name": "default"
+    }
+  ],
+  "iout": [
+    {
+      "name": "LED control",
+      "description": "Tool flange LED control"
+    }
+  ],
+  "uiout": [
+    {
+      "name": "default"
+    }
+  ],
+  "externalDout": [
+    {
+      "name": "default"
+    }
+  ],
+  "externalIout": [
+    {
+      "name": "default"
+    }
+  ],
+  "externalUiout": [
+    {
+      "name": "default"
+    }
+  ],
+  "points": [
+    {
+      "name": "point1",
+      "frameIndex": 0,
+      "translation": {
+        "x": 210,
+        "y": 210,
+        "z": 400
+      },
+      "rotation": {
+        "x": 1,
+        "y": 0,
+        "z": 0,
+        "w": 0
+      },
+      "configuration": 0
+    }
+  ],
+  "frames": [
+    {
+      "name": "World",
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "name": "Robot",
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 117
+      }
+    }
+  ],
+  "joint": [
+    {
+      "name": "0",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 3.414,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 3
+    },
+    {
+      "name": "1",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 2.54,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 1
+    },
+    {
+      "name": "2",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 3.41,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": false,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 1
+    },
+    {
+      "name": "3",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 4.3,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 3
+    },
+    {
+      "name": "4",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 4.3,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 1
+    },
+    {
+      "name": "5",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 8511186,
+      "scaleVel": 9549,
+      "scaleTorque": 16.07,
+      "jointType": 1,
+      "negLimit": -360,
+      "posLimit": 360,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 3
+    }
+  ],
+  "kinematicsConfiguration": [
+    {
+      "name": "default",
+      "frameIndex": 1,
+      "participatingJoints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "participatingJointsCount": 6,
+      "kinematicsConfigurationType": 1,
+      "supportedConfigurationBits": 7,
+      "extentsX": [
+        -1000,
+        1000
+      ],
+      "extentsY": [
+        -1000,
+        1000
+      ],
+      "extentsZ": [
+        -1000,
+        1500
+      ],
+      "linearLimits": [
+        {
+          "vmax": 60,
+          "amax": 300,
+          "jmax": 6000
+        }
+      ],
+      "angularLimits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "kinChainParams": {
+        "numRows": 6,
+        "numCols": 5,
+        "data": [
+          -90,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -90,
+          525,
+          0,
+          90,
+          0,
+          180,
+          0,
+          0,
+          -90,
+          0,
+          0,
+          0,
+          475,
+          90,
+          0,
+          90,
+          0,
+          0,
+          0,
+          0,
+          -180,
+          0,
+          328
+        ],
+        "invJointAngles": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "inverseDynamicParams": [
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.025
+            },
+            "rpy": {
+              "r": 0,
+              "p": 0,
+              "y": 0
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 17.11,
+            "h": {
+              "x": 0.00002,
+              "y": 0.00337,
+              "z": 0.0783
+            },
+            "Ixx": 0.10033,
+            "Iyy": 0.098412,
+            "Izz": 0.072655,
+            "Ixy": 0.00004912,
+            "Ixz": 0.00009505,
+            "Iyz": 0.00059172
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "damping": 180,
+          "friction": 30
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": 0.1045,
+              "z": 0.092
+            },
+            "rpy": {
+              "r": 1.5708,
+              "p": 0,
+              "y": 3.1416
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 37.96,
+            "h": {
+              "x": 0,
+              "y": 0.2217,
+              "z": 0.1278
+            },
+            "Ixx": 2.44,
+            "Iyy": 0.224399,
+            "Izz": 2.365,
+            "Ixy": 0.00012778,
+            "Ixz": -4.0029e-17,
+            "Iyz": 0.117904
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "damping": 175,
+          "friction": 15
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": 0.525,
+              "z": 0.0505
+            },
+            "rpy": {
+              "r": -3.1416,
+              "p": 0,
+              "y": -3.1416
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 11.26,
+            "h": {
+              "x": -0.00146,
+              "y": -0.00016,
+              "z": 0.11997
+            },
+            "Ixx": 0.058338,
+            "Iyy": 0.075667,
+            "Izz": 0.048275,
+            "Ixy": 0.00011853,
+            "Ixz": 0.00059057,
+            "Iyz": -0.00003323
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "damping": 75,
+          "friction": 15
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0.0874000000000046,
+              "y": 0,
+              "z": 0.155
+            },
+            "rpy": {
+              "r": -1.5707963267949,
+              "p": 0,
+              "y": -1.57079632679489
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 9.75,
+            "h": {
+              "x": 0.00019,
+              "y": -0.00169,
+              "z": 0.35365
+            },
+            "Ixx": 0.108309,
+            "Iyy": 0.090958,
+            "Izz": 0.03995142,
+            "Ixy": -0.00010593,
+            "Ixz": 0.00003162,
+            "Iyz": -0.00057054
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "damping": 25,
+          "friction": 8
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": 0.0874,
+              "z": 0.3876
+            },
+            "rpy": {
+              "r": 1.5708,
+              "p": -1.5708,
+              "y": 0
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 5.22,
+            "h": {
+              "x": 0.00002,
+              "y": -0.19464,
+              "z": 0.06264
+            },
+            "Ixx": 0.041937,
+            "Iyy": 0.02041881,
+            "Izz": 0.03423788,
+            "Ixy": -0.00000348,
+            "Ixz": 0.00001969,
+            "Iyz": -0.01118275
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "damping": 25,
+          "friction": 8
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": -0.328,
+              "z": 0.0911
+            },
+            "rpy": {
+              "r": 1.5708,
+              "p": 0,
+              "y": 0
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 0.41,
+            "h": {
+              "x": -0.00011,
+              "y": -0.00001,
+              "z": -0.0257
+            },
+            "Ixx": 0.00033004,
+            "Iyy": 0.00032822,
+            "Izz": 0.00054011,
+            "Ixy": -1.28e-7,
+            "Ixz": -9.4e-7,
+            "Iyz": -6e-8
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "damping": 1,
+          "friction": 2.5
+        }
+      ]
+    }
+  ],
+  "serial": [
+    {
+      "name": "default"
+    }
+  ],
+  "tool": [
+    {
+      "name": "t1",
+      "rigidBodyInertia": {
+        "m": 1.1,
+        "h": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ]
+}
