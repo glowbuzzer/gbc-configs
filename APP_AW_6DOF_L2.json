@@ -1,4 +1,37 @@
 {
+  "machine": [
+    {
+      "name": "AWTUBE L2",
+      "busCycleTime": 4,
+      "heartbeatTimeout": 15000,
+      "statusFrequency": 150,
+      "autoModeEnabledInput": {
+        "enabled": true,
+        "safety": true,
+        "index": 6
+      },
+      "motionEnabledInput": {
+        "enabled": true,
+        "safety": true,
+        "index": 8
+      },
+      "manualModeBit1Output": {
+        "enabled": true,
+        "safety": true,
+        "index": 1
+      },
+      "manualModeBit2Output": {
+        "enabled": true,
+        "safety": true,
+        "index": 2
+      },
+      "safeStopInput": {
+        "enabled": true,
+        "safety": true,
+        "index": 2
+      }
+    }
+  ],
   "din": [
     {
       "name": "Safe Stop",
@@ -60,14 +93,6 @@
   "soloActivity": [
     {
       "name": "default"
-    }
-  ],
-  "machine": [
-    {
-      "name": "AWTUBE L2",
-      "busCycleTime": 4,
-      "heartbeatTimeout": 15000,
-      "statusFrequency": 150
     }
   ],
   "safetyDin": [
