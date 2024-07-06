@@ -98,143 +98,143 @@
   "safetyDin": [
     {
       "name": "safety_state",
-        "description": "0 safety error, 1 no safety error"
+      "description": "Overall safety state | 0: safety error, 1:no safety error)"
     },
     {
       "name": "safe_stop",
-      "description": "0 robot is in safe stop, 1 robot is not in safe stop"
+      "description": "Safe stop state | 0:safe stop, 1:not safe stop"
     },
     {
       "name": "reduce_speed",
-      "description": "0 reduce speed, 1 no reduce speed"
+      "description": "Reduced speed | 0:reduced speed, 1: not reduce speed"
     },
     {
       "name": "pause",
-      "description": "0 pause motion, 1 no pause"
+      "description": "Pause | 0:paused, 1: not paused"
     },
     {
       "name": "override",
-      "description": "0 normal, 1 override - override mutes all safety functions"
+      "description": "Override (mute safety functions) | 0:normal, 1:override"
     },
     {
       "name": "reset_needed",
-      "description": "0 no reset needed, 1 reset needed"
+      "description": "Reset needed | 0:no reset, 1:reset needed)"
     },
     {
       "name": "mode",
-      "description": "0 manual mode, 1 auto mode"
+      "description": "Manual / Auto Mode | 0:manual mode, 1:auto mode)"
     },
     {
       "name": "restart_ack_needed",
-      "description": "0 no ack needed, 1 safety functions require an ack"
+      "description": "Restart ack needed |  0:no ack needed, 1: ack needed"
     },
     {
       "name": "motion_enabled",
-      "description": "For manual mode - 1 motion enabled, 0 motion disabled (enabling switch)"
+      "description": "Motion enabled (enableding switch) | 0:motion disabled, 1: motion enabled"
     },
     {
       "name": "safe_pos_valid",
-      "description": "All joints - 0 safe position not valid, 1 safe position valid",
+      "description": "Drives safe position valid | 0: safe pos valid, 1: safe pos invalid",
       "type": 2
     },
     {
       "name": "any_j_sto",
-      "description": "1 any joint in STO state (disabled)",
+      "description": "Drives STO | 0:no STO, 1:STO",
       "type": 1
     },
     {
       "name": "any_j_ss1",
-      "description": "1 any joint is in SS1 state",
+      "description": "Drives SS1 | 0:no SS1, 1:SS1",
       "type": 1
     },
     {
       "name": "any_j_ss2",
-      "description": "1 any joint is in SS2 state",
+      "description": "Drives SS2 | 0:no SS2, 1:SS2",
       "type": 1
     },
     {
       "name": "any_j_sbc",
-      "description": "1 any joint is in SBC state",
+      "description": "Drives SBC | 0:no SBC, 1:SBC",
       "type": 1
     },
     {
       "name": "any_j_sos",
-      "description": "1 any joint is in SOS state",
+      "description": "Drives SOS | 0:no SOS, 1:SOS",
       "type": 1
     },
     {
       "name": "drives_over_temp",
-      "description": "0 no over temp, 1 over temp",
+      "description": "Drives over temperature | 0:no fault, 1:fault",
       "type": 2
     },
     {
       "name": "drives_error",
-      "description": "0 no error, 1 error",
+      "description": "Drives error | 0:no error, 1:error)",
       "type": 1
     },
     {
       "name": "fault_tcp_sls",
-      "description": "0 fault, 1 no fault",
+      "description": "TCP SLS fault | 0:fault, 1:no fault",
       "type": 1
     },
     {
       "name": "fault_tcp_swm",
-      "description": "0 fault, 1 no fault",
+      "description": "TCP SWM (0 fault, 1 no fault)",
       "type": 1
     },
     {
       "name": "fault_joints_slp",
-      "description": "0 fault, 1 no fault",
+      "description": "Drives SLP (0 fault, 1 no fault)",
       "type": 1
     },
     {
       "name": "fault_pause_violation",
-      "description": "0 fault, 1 no fault",
+      "description": "Pause violation (0 fault, 1 no fault)",
       "type": 1
     }
   ],
   "safetyDout": [
     {
       "name": "error_ack_cmd",
-      "description": "acknowledge a safety error"
+      "description": "acknowledge a safety error | 0: no ack, 1: ack"
     },
 
     {
       "name": "manual_mode_bit_1",
-      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING"
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1"
 
     },
     {
       "name": "manual_mode_bit_2",
-      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING"
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1"
     },
     {
       "name": "manual_mode_bit_3",
-      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING"
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1"
     },
     {
       "name": "reset_safe_pos",
-      "description": "reset safe position - only in override"
+      "description": "reset safe position - only in override | 0: no reset, 1: reset"
     },
     {
       "name": "test_ss0",
-      "description": "signal ss0 - for testing"
+      "description": "signal SS0 (for testing) | 0:no SS0, 1: SS0"
     },
     {
       "name": "test_ss1",
-      "description": "signal ss1 - for testing"
+      "description": "signal SS1 (for testing) | 0:no SS1, 1: SS1"
     },
     {
       "name": "test_ss2",
-      "description": "signal ss3 - for testing"
+      "description": "signal SS2 (for testing) | 0:no SS2, 1: SS2"
     },
     {
       "name": "test_sos",
-      "description": "signal sos - for testing"
+      "description": "signal SOS (for testing) | 0:no SOS, 1: SOS"
     },
     {
       "name": "test_sbc",
-      "description": "signal sbc - for testing"
+      "description": "signal SBC (for testing) | 0:no SBC, 1: SBC"
     }
   ],
   "ain": [
