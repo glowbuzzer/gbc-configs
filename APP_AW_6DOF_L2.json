@@ -98,143 +98,143 @@
   "safetyDin": [
     {
       "name": "safety_state",
-      "description": "Overall safety state | 0: safety error, 1:no safety error)"
+      "description": "Overall safety state | 0: safety error:(negativeState), 1:no safety error)"
     },
     {
       "name": "safe_stop",
-      "description": "Safe stop state | 0:safe stop, 1:not safe stop"
+      "description": "Safe stop state | 0:safe stop:(negativeState), 1:not safe stop"
     },
     {
       "name": "reduce_speed",
-      "description": "Reduced speed | 0:reduced speed, 1: not reduce speed"
+      "description": "Reduced speed | 0:reduced speed:(negativeState), 1: not reduce speed"
     },
     {
       "name": "pause",
-      "description": "Pause | 0:paused, 1: not paused"
+      "description": "Pause | 0:paused:(negativeState), 1: not paused"
     },
     {
       "name": "override",
-      "description": "Override (mute safety functions) | 0:normal, 1:override"
+      "description": "Override (mute safety functions) | 0:normal, 1:override:(negativeState)"
     },
     {
       "name": "reset_needed",
-      "description": "Reset needed | 0:no reset, 1:reset needed)"
+      "description": "Reset needed | 0:no reset, 1:reset needed:(negativeState))"
     },
     {
       "name": "mode",
-      "description": "Manual / Auto Mode | 0:manual mode, 1:auto mode)"
+      "description": "Manual / Auto Mode | 0:manual mode:(negativeState), 1:auto mode)"
     },
     {
       "name": "restart_ack_needed",
-      "description": "Restart ack needed |  0:no ack needed, 1: ack needed"
+      "description": "Restart ack needed |  0:no ack needed, 1: ack needed:(negativeState)"
     },
     {
       "name": "motion_enabled",
-      "description": "Motion enabled (enableding switch) | 0:motion disabled, 1: motion enabled"
+      "description": "Motion enabled (enableding switch) | 0:motion disabled:(negativeState), 1: motion enabled"
     },
     {
       "name": "safe_pos_valid",
-      "description": "Drives safe position valid | 0: safe pos valid, 1: safe pos invalid",
+      "description": "Drives safe position valid | 0: safe pos valid, 1: safe pos invalid:(negativeState)",
       "type": 2
     },
     {
       "name": "any_j_sto",
-      "description": "Drives STO | 0:no STO, 1:STO",
+      "description": "Drives STO | 0:no STO, 1:STO:(negativeState)",
       "type": 1
     },
     {
       "name": "any_j_ss1",
-      "description": "Drives SS1 | 0:no SS1, 1:SS1",
+      "description": "Drives SS1 | 0:no SS1, 1:SS1:(negativeState)",
       "type": 1
     },
     {
       "name": "any_j_ss2",
-      "description": "Drives SS2 | 0:no SS2, 1:SS2",
+      "description": "Drives SS2 | 0:no SS2, 1:SS2:(negativeState)",
       "type": 1
     },
     {
       "name": "any_j_sbc",
-      "description": "Drives SBC | 0:no SBC, 1:SBC",
+      "description": "Drives SBC | 0:no SBC, 1:SBC:(negativeState)",
       "type": 1
     },
     {
       "name": "any_j_sos",
-      "description": "Drives SOS | 0:no SOS, 1:SOS",
+      "description": "Drives SOS | 0:no SOS, 1:SOS:(negativeState)",
       "type": 1
     },
     {
       "name": "drives_over_temp",
-      "description": "Drives over temperature | 0:no fault, 1:fault",
+      "description": "Drives over temperature | 0:no fault, 1:fault:(negativeState)",
       "type": 2
     },
     {
       "name": "drives_error",
-      "description": "Drives error | 0:no error, 1:error)",
+      "description": "Drives error | 0:no error, 1:error:(negativeState))",
       "type": 1
     },
     {
       "name": "fault_tcp_sls",
-      "description": "TCP SLS fault | 0:fault, 1:no fault",
+      "description": "TCP SLS fault | 0:fault, 1:no fault:(negativeState)",
       "type": 1
     },
     {
       "name": "fault_tcp_swm",
-      "description": "TCP SWM (0 fault, 1 no fault)",
+      "description": "TCP SWM | 0:fault, 1: no fault:(negativeState)",
       "type": 1
     },
     {
       "name": "fault_joints_slp",
-      "description": "Drives SLP (0 fault, 1 no fault)",
+      "description": "Drives SLP | 0:fault, 1: no fault:(negativeState)",
       "type": 1
     },
     {
       "name": "fault_pause_violation",
-      "description": "Pause violation (0 fault, 1 no fault)",
+      "description": "Pause violation | 0:fault, 1: no fault:(negativeState)",
       "type": 1
     }
   ],
   "safetyDout": [
     {
       "name": "error_ack_cmd",
-      "description": "acknowledge a safety error | 0: no ack, 1: ack"
+      "description": "acknowledge a safety error | 0: no ack, 1: ack:(negativeState)"
     },
 
     {
       "name": "manual_mode_bit_1",
-      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1"
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1:(negativeState)"
 
     },
     {
       "name": "manual_mode_bit_2",
-      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1"
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1:(negativeState)"
     },
     {
       "name": "manual_mode_bit_3",
-      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1"
+      "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1:(negativeState)"
     },
     {
       "name": "reset_safe_pos",
-      "description": "reset safe position - only in override | 0: no reset, 1: reset"
+      "description": "reset safe position - only in override | 0: no reset, 1: reset:(negativeState)"
     },
     {
       "name": "test_ss0",
-      "description": "signal SS0 (for testing) | 0:no SS0, 1: SS0"
+      "description": "signal SS0 (for testing) | 0:no SS0, 1: SS0:(negativeState)"
     },
     {
       "name": "test_ss1",
-      "description": "signal SS1 (for testing) | 0:no SS1, 1: SS1"
+      "description": "signal SS1 (for testing) | 0:no SS1, 1: SS1:(negativeState)"
     },
     {
       "name": "test_ss2",
-      "description": "signal SS2 (for testing) | 0:no SS2, 1: SS2"
+      "description": "signal SS2 (for testing) | 0:no SS2, 1: SS2:(negativeState)"
     },
     {
       "name": "test_sos",
-      "description": "signal SOS (for testing) | 0:no SOS, 1: SOS"
+      "description": "signal SOS (for testing) | 0:no SOS, 1: SOS:(negativeState)"
     },
     {
       "name": "test_sbc",
-      "description": "signal SBC (for testing) | 0:no SBC, 1: SBC"
+      "description": "signal SBC (for testing) | 0:no SBC, 1: SBC:(negativeState)"
     }
   ],
   "ain": [

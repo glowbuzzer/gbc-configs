@@ -373,17 +373,17 @@
     },
     {
       "name": "fault_tcp_swm",
-      "description": "TCP SWM | 0:fault:(negativeState), 1: no fault",
+      "description": "TCP SWM | 0:fault, 1: no fault:(negativeState)",
       "type": 1
     },
     {
       "name": "fault_joints_slp",
-      "description": "Drives SLP | 0:fault:(negativeState), 1: no fault",
+      "description": "Drives SLP | 0:fault, 1: no fault:(negativeState)",
       "type": 1
     },
     {
       "name": "fault_pause_violation",
-      "description": "Pause violation | 0:fault:(negativeState), 1: no fault)",
+      "description": "Pause violation | 0:fault, 1: no fault:(negativeState)",
       "type": 1
     }
   ],
