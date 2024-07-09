@@ -256,9 +256,9 @@
       "description": "TCP SLS fault | 0:fault, 1:no fault:(negativeState)",
       "type": 1,
       "$app": {
-        "0": "No Fault",
-        "1": "Fault",
-        "negativeState": 1
+        "0": "Fault",
+        "1": "No Fault",
+        "negativeState": 0
       }
     },
     {
@@ -266,9 +266,9 @@
       "description": "TCP SWM | 0:fault, 1: no fault:(negativeState)",
       "type": 1,
       "$app": {
-        "0": "No Fault",
-        "1": "Fault",
-        "negativeState": 1
+        "0": "Fault",
+        "1": "No Fault",
+        "negativeState": 0
       }
     },
     {
@@ -276,9 +276,9 @@
       "description": "Drives SLP | 0:fault, 1: no fault:(negativeState)",
       "type": 1,
       "$app": {
-        "0": "No Fault",
-        "1": "Fault",
-        "negativeState": 1
+        "0": "Fault",
+        "1": "No Fault",
+        "negativeState": 0
       }
     },
     {
@@ -286,9 +286,9 @@
       "description": "Pause violation | 0:fault, 1: no fault:(negativeState)",
       "type": 1,
       "$app": {
-        "0": "No Fault",
-        "1": "Fault",
-        "negativeState": 1
+        "0": "Fault",
+        "1": "No Fault",
+        "negativeState": 0
       }
     },
     {
