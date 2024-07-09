@@ -388,7 +388,7 @@
     },
     {
       "name": "estop_state",
-      "description": "Estop state | 0:no-estop:(negativeState), 1: no estop",
+      "description": "Estop state | 0:no-estop, 1: estop:(negativeState)",
       "type": 1
     }
   ],
