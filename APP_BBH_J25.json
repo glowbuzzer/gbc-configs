@@ -1,298 +1,319 @@
 {
   "machine": [
-{
-"name": "DRIVES FSoE CONFIG",
-  "busCycleTime": 4,
-  "heartbeatTimeout": 15000,
-  "statusFrequency": 150,
-  "autoModeEnabledInput": {
-    "enabled": true,
-    "safety": true,
-    "index": 6
-  },
-"motionEnabledInput": {
-"enabled": true,
-"safety": true,
-"index": 8
-},
-"manualModeBit1Output": {
-"enabled": true,
-"safety": true,
-"index": 1
-},
-"manualModeBit2Output": {
-"enabled": true,
-"safety": true,
-"index": 2
-},
-"safeStopInput": {
-"enabled": true,
-"safety": true,
-"index": 1
-}
-}
-],
-"joint": [
-{
-"name": "J1",
-"limits": [
-{
-"vmax": 0.25,
-"amax": 2,
-"jmax": 4
-}
-],
-"scalePos": 166886,
-"scaleVel": 9549,
-  "scaleTorque": 4.3,
-  "jointType": 1,
-  "pidConfig": [
-{
-  "kp": 0.001,
-  "ki": 0.0,
-  "kd": 0.0,
-  "maxIntegral": 2000,
-  "minIntegral": -2000,
-  "sampleTime": 20
-}
-],
-  "dynamicsVelocityThreshold": 0.02,
-  "preferredMode": 1,
-  "supportedModes": 7,
-"supportedTorqueModes":
-3
-},
-{
-  "name": "J2",
-  "limits": [
-{
-  "vmax": 200,
-  "amax": 4000,
-  "jmax": 80000
-}
-],
-  "scalePos": 166886,
-  "scaleVel": 9549,
-  "scaleTorque": 32.68
-},
-{
-"name": "J3",
-"limits": [
-{
-"vmax": 200,
-"amax": 4000,
-"jmax": 80000
-}
-],
-  "scale": 100000
-}
-],
+    {
+      "name": "DRIVES FSoE CONFIG",
+      "busCycleTime": 4,
+      "heartbeatTimeout": 15000,
+      "statusFrequency": 150,
+      "$app": {
+        "autoModeEnabledInput": {
+          "enabled": true,
+          "safety": true,
+          "index": 6
+        },
+        "motionEnabledInput": {
+          "enabled": true,
+          "safety": true,
+          "index": 8
+        },
+        "manualModeBit1Output": {
+          "enabled": true,
+          "safety": true,
+          "index": 1
+        },
+        "manualModeBit2Output": {
+          "enabled": true,
+          "safety": true,
+          "index": 2
+        },
+        "safeStopInput": {
+          "enabled": true,
+          "safety": true,
+          "index": 1
+        }
+      },
+    }
+  ],
+  "joint": [
+    {
+      "name": "J1",
+      "limits": [
+        {
+          "vmax": 0.25,
+          "amax": 2,
+          "jmax": 4
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 4.3,
+      "jointType": 1,
+      "pidConfig": [
+        {
+          "kp": 0.001,
+          "ki": 0.0,
+          "kd": 0.0,
+          "maxIntegral": 2000,
+          "minIntegral": -2000,
+          "sampleTime": 20
+        }
+      ],
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 7,
+      "supportedTorqueModes": 3
+    },
+    {
+      "name": "J2",
+      "limits": [
+        {
+          "vmax": 200,
+          "amax": 4000,
+          "jmax": 80000
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 32.68
+    },
+    {
+      "name": "J3",
+      "limits": [
+        {
+          "vmax": 200,
+          "amax": 4000,
+          "jmax": 80000
+        }
+      ],
+      "scale": 100000
+    }
+  ],
   "frames": [
-{
-  "name": "default"
-}
-],
-"stream": [
-{
-"name": "default"
-}
-],
+    {
+      "name": "default"
+    }
+  ],
+  "stream": [
+    {
+      "name": "default"
+    }
+  ],
   "soloActivity": [
-{
-  "name": "default"
-}
-],
-"kinematicsConfiguration": [
-{
-  "name": "default",
-  "participatingJointsCount": 3,
-  "kinematicsConfigurationType": 0,
-  "participatingJoints": [0, 1, 2],
-  "linearLimits": [
-{
-  "vmax": 200,
-  "amax": 4000,
-  "jmax": 80000
-}
-],
-  "inverseDynamicParams": [
-{ "jointInertia": 4.0, "damping": 25.0, "friction": 16.0 },
-{ "jointInertia": 1.2, "damping": 2.2, "friction": 3.2 },
-{ "jointInertia": 1.3, "damping": 2.3, "friction": 3.3 }
-]
-}
-],
+    {
+      "name": "default"
+    }
+  ],
+  "kinematicsConfiguration": [
+    {
+      "name": "default",
+      "participatingJointsCount": 3,
+      "kinematicsConfigurationType": 0,
+      "participatingJoints": [
+        0,
+        1,
+        2
+      ],
+      "linearLimits": [
+        {
+          "vmax": 200,
+          "amax": 4000,
+          "jmax": 80000
+        }
+      ],
+      "inverseDynamicParams": [
+        {
+          "jointInertia": 4.0,
+          "damping": 25.0,
+          "friction": 16.0
+        },
+        {
+          "jointInertia": 1.2,
+          "damping": 2.2,
+          "friction": 3.2
+        },
+        {
+          "jointInertia": 1.3,
+          "damping": 2.3,
+          "friction": 3.3
+        }
+      ]
+    }
+  ],
   "din": [
-{
-  "name": "My din",
-  "description": "EL2008 slave 1 input 0",
-  "inverted": true
-},
-{
-  "name": "My din 2",
-  "description": "EL2008 slave 1 input 1",
-  "inverted": false
-}
-],
+    {
+      "name": "My din",
+      "description": "EL2008 slave 1 input 0",
+      "inverted": true
+    },
+    {
+      "name": "My din 2",
+      "description": "EL2008 slave 1 input 1",
+      "inverted": false
+    }
+  ],
   "dout": [
-{
-  "name": "My dout",
-  "description": "EL2008 slave 1 output 0"
-},
-{
-  "name": "My dout 2",
-  "description": "EL2008 slave 1 output 1"
-}
-],
+    {
+      "name": "My dout",
+      "description": "EL2008 slave 1 output 0"
+    },
+    {
+      "name": "My dout 2",
+      "description": "EL2008 slave 1 output 1"
+    }
+  ],
   "uiin": [
-{
-  "name": "My uiin",
-  "description": "ELxxx slave 1 input 2"
-},
-{
-"name": "My uiin 2",
-"description": "ELxxx slave 1 input 3"
-}
-],
-"iin": [
-{
-"name": "My iin",
-"description": "ELxxx slave 1 input 4"
-},
-{
-"name": "My iin 2",
-"description": "ELxxx slave 1 input 5"
-}
-],
+    {
+      "name": "My uiin",
+      "description": "ELxxx slave 1 input 2"
+    },
+    {
+      "name": "My uiin 2",
+      "description": "ELxxx slave 1 input 3"
+    }
+  ],
+  "iin": [
+    {
+      "name": "My iin",
+      "description": "ELxxx slave 1 input 4"
+    },
+    {
+      "name": "My iin 2",
+      "description": "ELxxx slave 1 input 5"
+    }
+  ],
   "iout": [
-{
-  "name": "My iout",
-  "description": "ELxxx slave 1 output 0"
-},
-{
-"name": "My iout 2",
-"description": "ELxxx slave 1 output 1"
-}
-],
+    {
+      "name": "My iout",
+      "description": "ELxxx slave 1 output 0"
+    },
+    {
+      "name": "My iout 2",
+      "description": "ELxxx slave 1 output 1"
+    }
+  ],
   "uiout": [
-{
-  "name": "My uiout",
-  "description": "ELxxx slave 1 output 2"
-},
-{
-"name": "My uiout 2",
-"description": "ELxxx slave 1 output 3"
-}
-],
-
-"modbusDin": [
-{
-"name": "Temperature sensor",
-"slave_num": 2,
-"address": 2,
-"function": 1
-},
-{
-"name": "Part in position 1",
-"slave_num": 2,
-"address": 6,
-"function": 1
-},
-{
-"name": "Part in position 2",
-"slave_num": 2,
-"address": 9,
-"function": 1
-},
-{
-"name": "Part in position 3",
-"slave_num": 2,
-"address": 7,
-"function": 1
-},
-{
-"name": "Part in position 4",
-"slave_num": 2,
-"address": 8,
-"function": 1
-}
-],
-"modbusUiin": [
-{
-"name": "F/T sensor Fx",
-"slave_num": 1,
-"address": 10,
-"function": 3
-},
-{
-"name": "F/T sensor Fy",
-"slave_num": 1,
-"address": 11,
-"function": 3
-},
-{
-"name": "F/T sensor Fz",
-"slave_num": 1,
-"address": 12,
-"function": 3
-},
-{
-"name": "F/T sensor Tx",
-"slave_num": 1,
-"address": 13,
-"function": 3
-},
-{
-"name": "F/T sensor Ty",
-"slave_num": 1,
-"address": 14,
-"function": 3
-}
-],
-"modbusDout": [
-{
-"name": "Grippper 1",
-"slave_num": 2,
-"start_address": 10,
-"end_address": 10
-},
-{
-"name": "Grippper 2",
-"slave_num": 2,
-"start_address": 12,
-"end_address": 13
-},
-{
-"name": "Conveyor actuate",
-"slave_num": 2,
-"start_address": 15,
-"end_address": 17
-}
-],
-"modbusUiout": [
-{
-"name": "Gripper position",
-"slave_num": 1,
-"start_address": 1,
-"end_address": 1
-},
-{
-"name": "Gripper force",
-"slave_num": 1,
-"start_address": 2,
-"end_address": 4
-},
-{
-"name": "Gripper LED",
-"slave_num": 1,
-"start_address": 6,
-"end_address": 9
-}
-],
+    {
+      "name": "My uiout",
+      "description": "ELxxx slave 1 output 2"
+    },
+    {
+      "name": "My uiout 2",
+      "description": "ELxxx slave 1 output 3"
+    }
+  ],
+  "modbusDin": [
+    {
+      "name": "Temperature sensor",
+      "slave_num": 2,
+      "address": 2,
+      "function": 1
+    },
+    {
+      "name": "Part in position 1",
+      "slave_num": 2,
+      "address": 6,
+      "function": 1
+    },
+    {
+      "name": "Part in position 2",
+      "slave_num": 2,
+      "address": 9,
+      "function": 1
+    },
+    {
+      "name": "Part in position 3",
+      "slave_num": 2,
+      "address": 7,
+      "function": 1
+    },
+    {
+      "name": "Part in position 4",
+      "slave_num": 2,
+      "address": 8,
+      "function": 1
+    }
+  ],
+  "modbusUiin": [
+    {
+      "name": "F/T sensor Fx",
+      "slave_num": 1,
+      "address": 10,
+      "function": 3
+    },
+    {
+      "name": "F/T sensor Fy",
+      "slave_num": 1,
+      "address": 11,
+      "function": 3
+    },
+    {
+      "name": "F/T sensor Fz",
+      "slave_num": 1,
+      "address": 12,
+      "function": 3
+    },
+    {
+      "name": "F/T sensor Tx",
+      "slave_num": 1,
+      "address": 13,
+      "function": 3
+    },
+    {
+      "name": "F/T sensor Ty",
+      "slave_num": 1,
+      "address": 14,
+      "function": 3
+    }
+  ],
+  "modbusDout": [
+    {
+      "name": "Grippper 1",
+      "slave_num": 2,
+      "start_address": 10,
+      "end_address": 10
+    },
+    {
+      "name": "Grippper 2",
+      "slave_num": 2,
+      "start_address": 12,
+      "end_address": 13
+    },
+    {
+      "name": "Conveyor actuate",
+      "slave_num": 2,
+      "start_address": 15,
+      "end_address": 17
+    }
+  ],
+  "modbusUiout": [
+    {
+      "name": "Gripper position",
+      "slave_num": 1,
+      "start_address": 1,
+      "end_address": 1
+    },
+    {
+      "name": "Gripper force",
+      "slave_num": 1,
+      "start_address": 2,
+      "end_address": 4
+    },
+    {
+      "name": "Gripper LED",
+      "slave_num": 1,
+      "start_address": 6,
+      "end_address": 9
+    }
+  ],
   "safetyDin": [
     {
       "name": "safety_state",
-      "description": "Overall safety state | 0: safety error:(negativeState), 1:no safety error)"
+      "description": "Overall safety state",
+      "$app": {
+        "negative": 0,
+        "0": "Safety error",
+        "1": "No safety error"
+      }
     },
     {
       "name": "safe_stop",
@@ -397,11 +418,9 @@
       "name": "error_ack_cmd",
       "description": "acknowledge a safety error | 0: no ack, 1: ack:(negativeState)"
     },
-
     {
       "name": "manual_mode_bit_1",
       "description": "current manual mode selected (000 DISABLED, 001 JOG, 010 TEST PROGRAM, 011 HAND-GUIDING) | 0:0, 1:1:(negativeState)"
-
     },
     {
       "name": "manual_mode_bit_2",
