@@ -191,6 +191,11 @@
       "name": "fault_pause_violation",
       "description": "Pause violation | 0:fault, 1: no fault:(negativeState)",
       "type": 1
+    },
+    {
+      "name": "estop_state",
+      "description": "Estop state | 0:no-estop:(negativeState), 1: no estop",
+      "type": 1
     }
   ],
   "safetyDout": [
