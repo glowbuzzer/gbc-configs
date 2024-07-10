@@ -98,7 +98,7 @@
     {
       "name": "safety_state",
       "description": "Overall safety state | 0: safety error:(negativeState), 1:no safety error)",
-      "$app": {
+      "$metadata": {
         "0": "Safety Error",
         "1": "No Safety Error",
         "negativeState": 0
@@ -107,7 +107,7 @@
     {
       "name": "safe_stop",
       "description": "Safe stop state | 0:safe stop:(negativeState), 1:not safe stop",
-      "$app": {
+      "$metadata": {
         "0": "Safe Stop",
         "1": "Not Safe Stop",
         "negativeState": 0
@@ -116,7 +116,7 @@
     {
       "name": "reduce_speed",
       "description": "Reduced speed | 0:reduced speed:(negativeState), 1: not reduce speed",
-      "$app": {
+      "$metadata": {
         "0": "Reduced Speed",
         "1": "Normal Speed",
         "negativeState": 0
@@ -125,7 +125,7 @@
     {
       "name": "pause",
       "description": "Pause | 0:paused:(negativeState), 1: not paused",
-      "$app": {
+      "$metadata": {
         "0": "Paused",
         "1": "Not Paused",
         "negativeState": 0
@@ -134,7 +134,7 @@
     {
       "name": "override",
       "description": "Override (mute safety functions) | 0:normal, 1:override:(negativeState)",
-      "$app": {
+      "$metadata": {
         "0": "Normal",
         "1": "Override",
         "negativeState": 1
@@ -143,7 +143,7 @@
     {
       "name": "reset_needed",
       "description": "Reset needed | 0:no reset, 1:reset needed:(negativeState))",
-      "$app": {
+      "$metadata": {
         "0": "No Reset",
         "1": "Reset Needed",
         "negativeState": 1
@@ -152,7 +152,7 @@
     {
       "name": "mode",
       "description": "Manual / Auto Mode | 0:manual mode:(negativeState), 1:auto mode)",
-      "$app": {
+      "$metadata": {
         "0": "Manual Mode",
         "1": "Auto Mode",
         "negativeState": 0
@@ -161,7 +161,7 @@
     {
       "name": "restart_ack_needed",
       "description": "Restart ack needed |  0:no ack needed, 1: ack needed:(negativeState)",
-      "$app": {
+      "$metadata": {
         "0": "No Ack Needed",
         "1": "Ack Needed",
         "negativeState": 1
@@ -170,7 +170,7 @@
     {
       "name": "motion_enabled",
       "description": "Motion enabled (enabling switch) | 0:motion disabled:(negativeState), 1: motion enabled",
-      "$app": {
+      "$metadata": {
         "0": "Motion Disabled",
         "1": "Motion Enabled",
         "negativeState": 0
@@ -185,7 +185,7 @@
       "name": "any_j_sto",
       "description": "Drives STO | 0:no STO, 1:STO:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "No STO",
         "1": "STO",
         "negativeState": 1
@@ -195,7 +195,7 @@
       "name": "any_j_ss1",
       "description": "Drives SS1 | 0:no SS1, 1:SS1:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "No SS1",
         "1": "SS1",
         "negativeState": 1
@@ -205,7 +205,7 @@
       "name": "any_j_ss2",
       "description": "Drives SS2 | 0:no SS2, 1:SS2:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "No SS2",
         "1": "SS2",
         "negativeState": 1
@@ -215,7 +215,7 @@
       "name": "any_j_sbc",
       "description": "Drives SBC | 0:no SBC, 1:SBC:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "No SBC",
         "1": "SBC",
         "negativeState": 1
@@ -225,7 +225,7 @@
       "name": "any_j_sos",
       "description": "Drives SOS | 0:no SOS, 1:SOS:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "No SOS",
         "1": "SOS",
         "negativeState": 1
@@ -235,7 +235,7 @@
       "name": "drives_over_temp",
       "description": "Drives over temperature | 0:no fault, 1:fault:(negativeState)",
       "type": 2,
-      "$app": {
+      "$metadata": {
         "0": "No Fault",
         "1": "Fault",
         "negativeState": 1
@@ -245,7 +245,7 @@
       "name": "drives_error",
       "description": "Drives error | 0:no error, 1:error:(negativeState))",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "No Error",
         "1": "Error",
         "negativeState": 1
@@ -255,7 +255,7 @@
       "name": "fault_tcp_sls",
       "description": "TCP SLS fault | 0:fault, 1:no fault:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "Fault",
         "1": "No Fault",
         "negativeState": 0
@@ -265,7 +265,7 @@
       "name": "fault_tcp_swm",
       "description": "TCP SWM | 0:fault, 1: no fault:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "Fault",
         "1": "No Fault",
         "negativeState": 0
@@ -275,7 +275,7 @@
       "name": "fault_joints_slp",
       "description": "Drives SLP | 0:fault, 1: no fault:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "Fault",
         "1": "No Fault",
         "negativeState": 0
@@ -285,7 +285,7 @@
       "name": "fault_pause_violation",
       "description": "Pause violation | 0:fault, 1: no fault:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "Fault",
         "1": "No Fault",
         "negativeState": 0
@@ -295,7 +295,7 @@
       "name": "estop_state",
       "description": "Estop state | 0:no-estop, 1: estop:(negativeState)",
       "type": 1,
-      "$app": {
+      "$metadata": {
         "0": "No Estop",
         "1": "Estop",
         "negativeState": 1
