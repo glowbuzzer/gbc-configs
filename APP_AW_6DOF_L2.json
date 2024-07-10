@@ -6,6 +6,10 @@
       "heartbeatTimeout": 15000,
       "statusFrequency": 150,
       "$metadata": {
+        "resetNeededInput": {
+          "safety": true,
+          "index": 5
+        },
         "autoModeEnabledInput": {
           "safety": true,
           "index": 6
