@@ -5,30 +5,27 @@
       "busCycleTime": 4,
       "heartbeatTimeout": 15000,
       "statusFrequency": 150,
-      "autoModeEnabledInput": {
-        "enabled": true,
-        "safety": true,
-        "index": 6
-      },
-      "motionEnabledInput": {
-        "enabled": true,
-        "safety": true,
-        "index": 8
-      },
-      "manualModeBit1Output": {
-        "enabled": true,
-        "safety": true,
-        "index": 1
-      },
-      "manualModeBit2Output": {
-        "enabled": true,
-        "safety": true,
-        "index": 2
-      },
-      "safeStopInput": {
-        "enabled": true,
-        "safety": true,
-        "index": 1
+      "$metadata": {
+        "autoModeEnabledInput": {
+          "safety": true,
+          "index": 6
+        },
+        "motionEnabledInput": {
+          "safety": true,
+          "index": 8
+        },
+        "manualModeBit1Output": {
+          "safety": true,
+          "index": 1
+        },
+        "manualModeBit2Output": {
+          "safety": true,
+          "index": 2
+        },
+        "safeStopInput": {
+          "safety": true,
+          "index": 1
+        }
       }
     }
   ],
