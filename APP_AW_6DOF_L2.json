@@ -85,16 +85,6 @@
       "description": "EL2008 Channel 8"
     }
   ],
-  "stream": [
-    {
-      "name": "default"
-    }
-  ],
-  "soloActivity": [
-    {
-      "name": "default"
-    }
-  ],
   "safetyDin": [
     {
       "name": "safety_state",
@@ -926,6 +916,16 @@
           "z": 0
         }
       }
+    }
+  ],
+  "stream": [
+    {
+      "name": "default"
+    }
+  ],
+  "soloActivity": [
+    {
+      "name": "default"
     }
   ]
 }
