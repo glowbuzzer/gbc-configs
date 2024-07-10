@@ -310,7 +310,7 @@
   "safetyDout": [
     {
       "name": "error_ack_cmd",
-      "description": "Acknowledge a safety error | 0: no ack, 1: ack:(negativeState)",
+      "description": "Acknowledge a safety error",
       "$metadata": {
         "0": "No Ack",
         "1": "Acknowledge",
