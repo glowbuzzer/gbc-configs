@@ -176,7 +176,7 @@
     {
       "name": "safe_pos_valid",
       "description": "Drives safe position valid",
-      "type": 2,
+      "type": "unacknowledgable",
       "$metadata": {
         "0": "Valid",
         "1": "Invalid",
@@ -186,7 +186,7 @@
     {
       "name": "any_j_sto",
       "description": "Drives STO",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "No STO",
         "1": "STO",
@@ -196,7 +196,7 @@
     {
       "name": "any_j_ss1",
       "description": "Drives SS1",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "No SS1",
         "1": "SS1",
@@ -206,7 +206,7 @@
     {
       "name": "any_j_ss2",
       "description": "Drives SS2",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "No SS2",
         "1": "SS2",
@@ -216,7 +216,7 @@
     {
       "name": "any_j_sbc",
       "description": "Drives SBC",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "No SBC",
         "1": "SBC",
@@ -226,7 +226,7 @@
     {
       "name": "any_j_sos",
       "description": "Drives SOS",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "No SOS",
         "1": "SOS",
@@ -236,7 +236,7 @@
     {
       "name": "drives_over_temp",
       "description": "Drives over temperature",
-      "type": 2,
+      "type": "unacknowledgable",
       "$metadata": {
         "0": "No Fault",
         "1": "Fault",
@@ -246,7 +246,7 @@
     {
       "name": "drives_error",
       "description": "Drives error",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "No Error",
         "1": "Error",
@@ -256,7 +256,7 @@
     {
       "name": "fault_tcp_sls",
       "description": "TCP SLS fault",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "Fault",
         "1": "No Fault",
@@ -266,7 +266,7 @@
     {
       "name": "fault_tcp_swm",
       "description": "TCP SWM",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "Fault",
         "1": "No Fault",
@@ -276,7 +276,7 @@
     {
       "name": "fault_joints_slp",
       "description": "Drives SLP",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "Fault",
         "1": "No Fault",
@@ -286,7 +286,7 @@
     {
       "name": "fault_pause_violation",
       "description": "Pause violation",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "Fault",
         "1": "No Fault",
@@ -296,7 +296,7 @@
     {
       "name": "estop_state",
       "description": "Estop state",
-      "type": 1,
+      "type": "acknowledgable",
       "$metadata": {
         "0": "No Estop",
         "1": "Estop",
