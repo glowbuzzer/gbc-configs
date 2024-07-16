@@ -6,6 +6,18 @@
       "heartbeatTimeout": 15000,
       "statusFrequency": 150,
       "$metadata": {
+        "safetyStateInput": {
+          "safety": true,
+          "index": 0
+        },
+        "safeStopInput": {
+          "safety": true,
+          "index": 1
+        },
+        "overrideEnabledInput": {
+          "safety": true,
+          "index": 4
+        },
         "resetNeededInput": {
           "safety": true,
           "index": 5
@@ -25,10 +37,6 @@
         "manualModeBit2Output": {
           "safety": true,
           "index": 2
-        },
-        "safeStopInput": {
-          "safety": true,
-          "index": 1
         }
       }
     }
