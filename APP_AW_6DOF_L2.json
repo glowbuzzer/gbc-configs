@@ -41,6 +41,10 @@
         "manualModeBit2Output": {
           "safety": true,
           "index": 2
+        },
+        "drivesSafePositionResetOutput": {
+          "safety": true,
+          "index": 4
         }
       }
     }
