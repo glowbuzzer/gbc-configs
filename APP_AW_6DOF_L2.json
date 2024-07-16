@@ -632,6 +632,26 @@
       "participatingJointsCount": 6,
       "kinematicsConfigurationType": 1,
       "supportedConfigurationBits": 7,
+      "velocityScaling": [
+        {
+          "enabled": true,
+          "safeInput": true,
+          "scaleFactor": 0.25,
+          "trigger": {
+            "input": 2,
+            "when": 1
+          }
+        },
+        {
+          "enabled": true,
+          "safeInput": true,
+          "scaleFactor": 0,
+          "trigger": {
+            "input": 3,
+            "when": 1
+          }
+        }
+      ],
       "extentsX": [
         -1000,
         1000
