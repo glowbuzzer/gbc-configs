@@ -30,6 +30,10 @@
           "safety": true,
           "index": 8
         },
+        "drivesSafePositionValidInput": {
+          "safety": true,
+          "index": 9
+        },
         "manualModeBit1Output": {
           "safety": true,
           "index": 1
@@ -180,9 +184,9 @@
       "description": "Drives safe position valid",
       "$metadata": {
         "type": "unacknowledgeable",
-        "0": "Valid",
-        "1": "Invalid",
-        "negativeState": 1
+        "0": "Invalid",
+        "1": "Valid",
+        "negativeState": 0
       }
     },
     {
