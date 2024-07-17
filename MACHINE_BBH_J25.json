@@ -103,7 +103,7 @@
   },
   "gbem": {
     "params": {
-      "cycle_time": 2,
+      "cycle_time": 1,
       "drive_state_change_timeout": 5000
     },
     "debug_params": {
