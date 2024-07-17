@@ -34,6 +34,54 @@
           "safety": true,
           "index": 9
         },
+        "anyJointStoInput": {
+          "safety": true,
+          "index": 10
+        },
+        "anyJointSs1Input": {
+          "safety": true,
+          "index": 11
+        },
+        "anyJointSs2Input": {
+          "safety": true,
+          "index": 12
+        },
+        "anyJointSbcInput": {
+          "safety": true,
+          "index": 13
+        },
+        "anyJointSosInput": {
+          "safety": true,
+          "index": 14
+        },
+        "drivesOverTempInput": {
+          "safety": true,
+          "index": 15
+        },
+        "drivesErrorInput": {
+          "safety": true,
+          "index": 16
+        },
+        "faultTcpSlsInput": {
+          "safety": true,
+          "index": 17
+        },
+        "faultTcpSwmInput": {
+          "safety": true,
+          "index": 18
+        },
+        "faultJointsSlpInput": {
+          "safety": true,
+          "index": 19
+        },
+        "faultPauseViolationInput": {
+          "safety": true,
+          "index": 20
+        },
+        "estopStateInput": {
+          "safety": true,
+          "index": 21
+        },
         "manualModeBit1Output": {
           "safety": true,
           "index": 1
