@@ -640,9 +640,9 @@
       ],
       "linearLimits": [
         {
-          "vmax": 2,
-          "amax": 40,
-          "jmax": 800
+          "vmax": 0.25,
+          "amax": 2,
+          "jmax": 4
         }
       ],
       "inverseDynamicParams": [
