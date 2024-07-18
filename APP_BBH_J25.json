@@ -618,6 +618,26 @@
         1,
         2
       ],
+      "velocityScaling": [
+        {
+          "enabled": true,
+          "safeInput": true,
+          "scaleFactor": 0.25,
+          "trigger": {
+            "input": 2,
+            "when": 1
+          }
+        },
+        {
+          "enabled": true,
+          "safeInput": true,
+          "scaleFactor": 0,
+          "trigger": {
+            "input": 3,
+            "when": 1
+          }
+        }
+      ],
       "linearLimits": [
         {
           "vmax": 200,
