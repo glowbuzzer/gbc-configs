@@ -673,5 +673,18 @@
     {
       "name": "default"
     }
+  ],
+  "tool": [
+    {
+      "name": "t1",
+      "rigidBodyInertia": {
+        "m": 1.1,
+        "h": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
   ]
 }
