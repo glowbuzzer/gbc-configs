@@ -677,6 +677,19 @@
   "tool": [
     {
       "name": "t1",
+      "description": "Tool 1",
+      "rigidBodyInertia": {
+        "m": 1.1,
+        "h": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "name": "t1",
+      "description": "Tool 2",
       "rigidBodyInertia": {
         "m": 1.1,
         "h": {
