@@ -677,7 +677,7 @@
   "tool": [
     {
       "name": "t1",
-      "description": "Tool 1",
+      "description": "Schmalz FQE Xc 120x60",
       "rigidBodyInertia": {
         "m": 1.1,
         "h": {
@@ -688,8 +688,8 @@
       }
     },
     {
-      "name": "t1",
-      "description": "Tool 2",
+      "name": "t2",
+      "description": "Schmalz FQE Xc 220x80",
       "rigidBodyInertia": {
         "m": 1.1,
         "h": {
