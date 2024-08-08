@@ -685,8 +685,11 @@
           "y": 0,
           "z": 0
         }
-      }
-    },
+      },
+      "$metadata": {
+        "fileName": "xxxx.glb"
+        }
+       },
     {
       "name": "t2",
       "description": "Schmalz FQE Xc 220x80",
