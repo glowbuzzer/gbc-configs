@@ -495,6 +495,34 @@
       "name": "default"
     }
   ],
+  "modbusDout": [
+    {
+      "name": "Grippper 1",
+      "slaveNum": 2,
+      "startAddress": 10,
+      "endAddress": 10
+    },
+    {
+      "name": "Grippper 2",
+      "slaveNum": 2,
+      "startAddress": 12,
+      "endAddress": 13
+    }
+  ],
+  "modbusUiout": [
+    {
+      "name": "Gripper position",
+      "slaveNum": 1,
+      "startAddress": 1,
+      "endAddress": 1
+    },
+    {
+      "name": "Gripper force",
+      "slaveNum": 1,
+      "startAddress": 2,
+      "endAddress": 4
+    }
+  ],
   "points": [
     {
       "name": "point1",
