@@ -158,31 +158,31 @@
   "modbusDin": [
     {
       "name": "Temperature sensor",
-      "slave_num": 2,
+      "slaveNum": 2,
       "address": 2,
       "function": 1
     },
     {
       "name": "Part in position 1",
-      "slave_num": 2,
+      "slaveNum": 2,
       "address": 6,
       "function": 1
     },
     {
       "name": "Part in position 2",
-      "slave_num": 2,
+      "slaveNum": 2,
       "address": 9,
       "function": 1
     },
     {
       "name": "Part in position 3",
-      "slave_num": 2,
+      "slaveNum": 2,
       "address": 7,
       "function": 1
     },
     {
       "name": "Part in position 4",
-      "slave_num": 2,
+      "slaveNum": 2,
       "address": 8,
       "function": 1
     }
@@ -190,31 +190,31 @@
   "modbusUiin": [
     {
       "name": "F/T sensor Fx",
-      "slave_num": 1,
+      "slaveNum": 1,
       "address": 10,
       "function": 3
     },
     {
       "name": "F/T sensor Fy",
-      "slave_num": 1,
+      "slaveNum": 1,
       "address": 11,
       "function": 3
     },
     {
       "name": "F/T sensor Fz",
-      "slave_num": 1,
+      "slaveNum": 1,
       "address": 12,
       "function": 3
     },
     {
       "name": "F/T sensor Tx",
-      "slave_num": 1,
+      "slaveNum": 1,
       "address": 13,
       "function": 3
     },
     {
       "name": "F/T sensor Ty",
-      "slave_num": 1,
+      "slaveNum": 1,
       "address": 14,
       "function": 3
     }
@@ -222,41 +222,41 @@
   "modbusDout": [
     {
       "name": "Grippper 1",
-      "slave_num": 2,
-      "start_address": 10,
-      "end_address": 10
+      "slaveNum": 2,
+      "startAddress": 10,
+      "endAddress": 10
     },
     {
       "name": "Grippper 2",
-      "slave_num": 2,
-      "start_address": 12,
-      "end_address": 13
+      "slaveNum": 2,
+      "startAddress": 12,
+      "endAddress": 13
     },
     {
       "name": "Conveyor actuate",
-      "slave_num": 2,
-      "start_address": 15,
-      "end_address": 17
+      "slaveNum": 2,
+      "startAddress": 15,
+      "endAddress": 17
     }
   ],
   "modbusUiout": [
     {
       "name": "Gripper position",
-      "slave_num": 1,
-      "start_address": 1,
-      "end_address": 1
+      "slaveNum": 1,
+      "startAddress": 1,
+      "endAddress": 1
     },
     {
       "name": "Gripper force",
-      "slave_num": 1,
-      "start_address": 2,
-      "end_address": 4
+      "slaveNum": 1,
+      "startAddress": 2,
+      "endAddress": 4
     },
     {
       "name": "Gripper LED",
-      "slave_num": 1,
-      "start_address": 6,
-      "end_address": 9
+      "slaveNum": 1,
+      "startAddress": 6,
+      "endAddress": 9
     }
   ],
   "safetyDin": [
