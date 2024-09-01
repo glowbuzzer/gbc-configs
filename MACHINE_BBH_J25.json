@@ -97,7 +97,7 @@
         "eep_name": "ELM7231-9018",
         "optional": {
           "is_configurable": true,
-          "is_enabled": true
+          "is_enabled": false
         },
         "sdos": [
         ]
