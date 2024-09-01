@@ -88,7 +88,9 @@
         "optional": {
           "is_configurable": true,
           "is_enabled": true
-        }
+        },
+        "sdos": [
+        ]
       },
       {
         "name": "ELM7231-9018-DRIVE",
@@ -96,7 +98,9 @@
         "optional": {
           "is_configurable": true,
           "is_enabled": true
-        }
+        },
+        "sdos": [
+        ]
       },
       {
         "name": "EK1110-COUPLER",
@@ -104,7 +108,9 @@
         "optional": {
           "is_configurable": true,
           "is_enabled": true
-        }
+        },
+        "sdos": [
+        ]
       },
       {
         "name": "AW_J25_FSOE",
