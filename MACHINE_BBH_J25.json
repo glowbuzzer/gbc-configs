@@ -83,6 +83,30 @@
         ]
       },
       {
+        "name": "EL2535-0005-PWM",
+        "eep_name": "EL2535-0005",
+        "optional": {
+          "is_configurable": true,
+          "is_enabled": true
+        }
+      },
+      {
+        "name": "ELM7231-9018-DRIVE",
+        "eep_name": "ELM7231-9018",
+        "optional": {
+          "is_configurable": true,
+          "is_enabled": true
+        }
+      },
+      {
+        "name": "EK1110-COUPLER",
+        "eep_name": "EK1110",
+        "optional": {
+          "is_configurable": true,
+          "is_enabled": true
+        }
+      },
+      {
         "name": "AW_J25_FSOE",
         "eep_name": "SOMANET",
         "optional": {
