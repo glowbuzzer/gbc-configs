@@ -1,6 +1,6 @@
 {
   "machine_name": "MACHINE_AW_6DOF_FSOE",
-  "sub_machine_name": "L2",
+  "sub_machine_name": "L",
   "drives": {
     "no_limits": false,
     "limits": [
@@ -143,8 +143,38 @@
         ]
       },
       {
+        "name": "EL2535-0005",
+        "eep_name": "EL2535-0005",
+        "optional": {
+          "is_configurable": true,
+          "is_enabled": true
+        },
+        "sdos": [
+        ]
+      },
+      {
+        "name": "ELM7231",
+        "eep_name": "ELM7231-9018",
+        "optional": {
+          "is_configurable": true,
+          "is_enabled": true
+        },
+        "sdos": [
+        ]
+      },
+      {
+        "name": "EK1110",
+        "eep_name": "EK1110",
+        "optional": {
+          "is_configurable": true,
+          "is_enabled": true
+        },
+        "sdos": [
+        ]
+      },
+      {
         "name": "IBT_JOINT_0",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
@@ -189,7 +219,7 @@
       },
       {
         "name": "IBT_JOINT_1",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
@@ -234,7 +264,7 @@
       },
       {
         "name": "IBT_JOINT_2",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
@@ -279,7 +309,7 @@
       },
       {
         "name": "IBT_JOINT_3",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
@@ -324,7 +354,7 @@
       },
       {
         "name": "IBT_JOINT_4",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
@@ -369,7 +399,7 @@
       },
       {
         "name": "IBT_JOINT_5",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false

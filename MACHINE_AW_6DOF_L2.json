@@ -134,17 +134,17 @@
       },
       {
         "name": "IBT_JOINT_0",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "isenabledset": false
         },
         "sdos": [
           {
-            "datatype": 4,
+            "datatype": 5,
             "index": 24702,
             "sub_index": 0,
-            "value": 1,
+            "value": 0,
             "length": 4
           },
           {
@@ -155,41 +155,34 @@
             "length": 4
           },
           {
+            "datatype": 1,
+            "index": 8231,
+            "sub_index": 1,
+            "value": 1,
+            "length": 1
+          },
+          {
             "datatype": 5,
             "index": 8231,
             "sub_index": 2,
             "value": 15,
-            "length": 1
-          },
-          {
-            "datatype": 5,
-            "index": 8720,
-            "sub_index": 1,
-            "value": 26,
-            "length": 1
-          },
-          {
-            "datatype": 5,
-            "index": 8724,
-            "sub_index": 1,
-            "value": 2,
             "length": 1
           }
         ]
       },
       {
         "name": "IBT_JOINT_1",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabledset": false
         },
         "sdos": [
             {
-              "datatype": 4,
+              "datatype": 5,
               "index": 24702,
               "sub_index": 0,
-              "value": 1,
+              "value": 0,
               "length": 4
             },
             {
@@ -199,42 +192,35 @@
               "value": 400,
               "length": 4
             },
+          {
+            "datatype": 1,
+            "index": 8231,
+            "sub_index": 1,
+            "value": 1,
+            "length": 1
+          },
             {
               "datatype": 5,
               "index": 8231,
               "sub_index": 2,
               "value": 15,
-              "length": 1
-            },
-            {
-              "datatype": 5,
-              "index": 8720,
-              "sub_index": 1,
-              "value": 26,
-              "length": 1
-            },
-            {
-              "datatype": 5,
-              "index": 8724,
-              "sub_index": 1,
-              "value": 2,
               "length": 1
             }
         ]
       },
       {
         "name": "IBT_JOINT_2",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
         },
         "sdos": [
             {
-              "datatype": 4,
+              "datatype": 5,
               "index": 24702,
               "sub_index": 0,
-              "value": 1,
+              "value": 0,
               "length": 4
             },
             {
@@ -244,42 +230,35 @@
               "value": 400,
               "length": 4
             },
+          {
+            "datatype": 1,
+            "index": 8231,
+            "sub_index": 1,
+            "value": 1,
+            "length": 1
+          },
             {
               "datatype": 5,
               "index": 8231,
               "sub_index": 2,
               "value": 15,
-              "length": 1
-            },
-            {
-              "datatype": 5,
-              "index": 8720,
-              "sub_index": 1,
-              "value": 26,
-              "length": 1
-            },
-            {
-              "datatype": 5,
-              "index": 8724,
-              "sub_index": 1,
-              "value": 2,
               "length": 1
             }
         ]
       },
       {
         "name": "IBT_JOINT_3",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
         },
         "sdos": [
             {
-              "datatype": 4,
+              "datatype": 5,
               "index": 24702,
               "sub_index": 0,
-              "value": 1,
+              "value": 0,
               "length": 4
             },
             {
@@ -289,42 +268,35 @@
               "value": 400,
               "length": 4
             },
+          {
+            "datatype": 1,
+            "index": 8231,
+            "sub_index": 1,
+            "value": 1,
+            "length": 1
+          },
             {
               "datatype": 5,
               "index": 8231,
               "sub_index": 2,
               "value": 15,
-              "length": 1
-            },
-            {
-              "datatype": 5,
-              "index": 8720,
-              "sub_index": 1,
-              "value": 26,
-              "length": 1
-            },
-            {
-              "datatype": 5,
-              "index": 8724,
-              "sub_index": 1,
-              "value": 2,
               "length": 1
             }
         ]
       },
       {
         "name": "IBT_JOINT_4",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
         },
         "sdos": [
             {
-              "datatype": 4,
+              "datatype": 5,
               "index": 24702,
               "sub_index": 0,
-              "value": 1,
+              "value": 0,
               "length": 4
             },
             {
@@ -334,42 +306,35 @@
               "value": 400,
               "length": 4
             },
+          {
+            "datatype": 1,
+            "index": 8231,
+            "sub_index": 1,
+            "value": 1,
+            "length": 1
+          },
             {
               "datatype": 5,
               "index": 8231,
               "sub_index": 2,
               "value": 15,
               "length": 1
-            },
-            {
-              "datatype": 5,
-              "index": 8720,
-              "sub_index": 1,
-              "value": 26,
-              "length": 1
-            },
-            {
-              "datatype": 5,
-              "index": 8724,
-              "sub_index": 1,
-              "value": 2,
-              "length": 1
             }
         ]
       },
       {
         "name": "IBT_JOINT_5",
-        "eep_name": "somanet",
+        "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
           "is_enabled": false
         },
         "sdos": [
             {
-              "datatype": 4,
+              "datatype": 5,
               "index": 24702,
               "sub_index": 0,
-              "value": 1,
+              "value": 0,
               "length": 4
             },
             {
@@ -379,6 +344,13 @@
               "value": 400,
               "length": 4
             },
+          {
+            "datatype": 1,
+            "index": 8231,
+            "sub_index": 1,
+            "value": 1,
+            "length": 1
+          },
             {
               "datatype": 5,
               "index": 8231,
