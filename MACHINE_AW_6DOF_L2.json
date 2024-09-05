@@ -88,6 +88,51 @@
         ]
       },
       {
+        "name": "EL6021",
+        "eep_name": "EL6021",
+        "optional": {
+          "is_configurable": true,
+          "is_enabled": false
+        },
+        "sdos": [
+          {
+            "datatype": 6,
+            "index": 16499,
+            "sub_index": 0,
+            "value": 10,
+            "length": 2
+          },
+          {
+            "datatype": 6,
+            "index": 16500,
+            "sub_index": 0,
+            "value": 3,
+            "length": 2
+          },
+          {
+            "datatype": 5,
+            "index": 16501,
+            "sub_index": 1,
+            "value": 1,
+            "length": 1
+          },
+          {
+            "datatype": 5,
+            "index": 16501,
+            "sub_index": 4,
+            "value": 0,
+            "length": 1
+          },
+          {
+            "datatype": 5,
+            "index": 16501,
+            "sub_index": 6,
+            "value": 1,
+            "length": 1
+          }
+        ]
+      },
+      {
         "name": "IBT_JOINT_0",
         "eep_name": "SOMANET",
         "optional": {
