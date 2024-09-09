@@ -4,7 +4,97 @@
       "name": "AWTUBE L2",
       "busCycleTime": 4,
       "heartbeatTimeout": 15000,
-      "statusFrequency": 150
+      "statusFrequency": 150,
+      "$metadata": {
+        "safetyStateInput": {
+          "safety": true,
+          "index": 0
+        },
+        "safeStopInput": {
+          "safety": true,
+          "index": 1
+        },
+        "overrideEnabledInput": {
+          "safety": true,
+          "index": 4
+        },
+        "resetNeededInput": {
+          "safety": true,
+          "index": 5
+        },
+        "autoModeEnabledInput": {
+          "safety": true,
+          "index": 6
+        },
+        "motionEnabledInput": {
+          "safety": true,
+          "index": 8
+        },
+        "drivesSafePositionValidInput": {
+          "safety": true,
+          "index": 9
+        },
+        "anyJointStoInput": {
+          "safety": true,
+          "index": 10
+        },
+        "anyJointSs1Input": {
+          "safety": true,
+          "index": 11
+        },
+        "anyJointSs2Input": {
+          "safety": true,
+          "index": 12
+        },
+        "anyJointSbcInput": {
+          "safety": true,
+          "index": 13
+        },
+        "anyJointSosInput": {
+          "safety": true,
+          "index": 14
+        },
+        "drivesOverTempInput": {
+          "safety": true,
+          "index": 15
+        },
+        "drivesErrorInput": {
+          "safety": true,
+          "index": 16
+        },
+        "faultTcpSlsInput": {
+          "safety": true,
+          "index": 17
+        },
+        "faultTcpSwmInput": {
+          "safety": true,
+          "index": 18
+        },
+        "faultJointsSlpInput": {
+          "safety": true,
+          "index": 19
+        },
+        "faultPauseViolationInput": {
+          "safety": true,
+          "index": 20
+        },
+        "estopStateInput": {
+          "safety": true,
+          "index": 21
+        },
+        "manualModeBit1Output": {
+          "safety": true,
+          "index": 1
+        },
+        "manualModeBit2Output": {
+          "safety": true,
+          "index": 2
+        },
+        "drivesSafePositionResetOutput": {
+          "safety": true,
+          "index": 4
+        }
+      }
     }
   ],
   "din": [
@@ -57,6 +147,296 @@
     {
       "name": "SPARE OUTPUT 2",
       "description": "EL2008 Channel 8"
+    }
+  ],
+  "safetyDin": [
+    {
+      "name": "safety_state",
+      "description": "Overall safety state",
+      "$metadata": {
+        "0": "Safety Error",
+        "1": "No Safety Error",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "safe_stop",
+      "description": "Safe stop state",
+      "$metadata": {
+        "0": "Safe Stop",
+        "1": "Not Safe Stop",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "reduce_speed",
+      "description": "Reduced speed",
+      "$metadata": {
+        "0": "Reduced Speed",
+        "1": "Normal Speed",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "pause",
+      "description": "Pause",
+      "$metadata": {
+        "0": "Paused",
+        "1": "Not Paused",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "override",
+      "description": "Override",
+      "$metadata": {
+        "0": "Normal",
+        "1": "Override",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "reset_needed",
+      "description": "Reset needed",
+      "$metadata": {
+        "0": "No Reset",
+        "1": "Reset Needed",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "mode",
+      "description": "Manual / Auto Mode",
+      "$metadata": {
+        "0": "Manual Mode",
+        "1": "Auto Mode",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "restart_ack_needed",
+      "description": "Restart ack needed",
+      "$metadata": {
+        "0": "No Ack Needed",
+        "1": "Ack Needed",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "motion_enabled",
+      "description": "Motion enabled (enabling switch)",
+      "$metadata": {
+        "0": "Motion Disabled",
+        "1": "Motion Enabled",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "safe_pos_valid",
+      "description": "Drives safe position valid",
+      "$metadata": {
+        "type": "unacknowledgeable",
+        "0": "Invalid",
+        "1": "Valid",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "any_j_sto",
+      "description": "Drives STO",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "No STO",
+        "1": "STO",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "any_j_ss1",
+      "description": "Drives SS1",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "No SS1",
+        "1": "SS1",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "any_j_ss2",
+      "description": "Drives SS2",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "No SS2",
+        "1": "SS2",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "any_j_sbc",
+      "description": "Drives SBC",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "No SBC",
+        "1": "SBC",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "any_j_sos",
+      "description": "Drives SOS",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "No SOS",
+        "1": "SOS",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "drives_over_temp",
+      "description": "Drives over temperature",
+      "$metadata": {
+        "type": "unacknowledgeable",
+        "0": "No Fault",
+        "1": "Fault",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "drives_error",
+      "description": "Drives error",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "No Error",
+        "1": "Error",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "fault_tcp_sls",
+      "description": "TCP SLS fault",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "Fault",
+        "1": "No Fault",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "fault_tcp_swm",
+      "description": "TCP SWM",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "Fault",
+        "1": "No Fault",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "fault_joints_slp",
+      "description": "Drives SLP",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "Fault",
+        "1": "No Fault",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "fault_pause_violation",
+      "description": "Pause violation",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "Fault",
+        "1": "No Fault",
+        "negativeState": 0
+      }
+    },
+    {
+      "name": "estop_state",
+      "description": "Estop state",
+      "$metadata": {
+        "type": "acknowledgeable",
+        "0": "No Estop",
+        "1": "Estop",
+        "negativeState": 1
+      }
+    }
+  ],
+  "safetyDout": [
+    {
+      "name": "error_ack_cmd",
+      "description": "Acknowledge a safety error",
+      "$metadata": {
+        "0": "No Ack",
+        "1": "Acknowledge",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "manual_mode_bit_1",
+      "description": "Manual mode selected (bit 1)"
+    },
+    {
+      "name": "manual_mode_bit_2",
+      "description": "Manual mode selected (bit 2)"
+    },
+    {
+      "name": "manual_mode_bit_3",
+      "description": "Manual mode selected (bit 3)"
+    },
+    {
+      "name": "reset_safe_pos",
+      "description": "Reset safe position (only in override)",
+      "$metadata": {
+        "0": "No Reset",
+        "1": "Reset",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "test_ss0",
+      "description": "Signal SS0 (for testing)",
+      "$metadata": {
+        "0": "No SS0",
+        "1": "SS0",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "test_ss1",
+      "description": "Signal SS1 (for testing)",
+      "$metadata": {
+        "0": "No SS1",
+        "1": "SS1",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "test_ss2",
+      "description": "Signal SS2 (for testing)",
+      "$metadata": {
+        "0": "No SS2",
+        "1": "SS2",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "test_sos",
+      "description": "Signal SOS (for testing)",
+      "$metadata": {
+        "0": "No SOS",
+        "1": "SOS",
+        "negativeState": 1
+      }
+    },
+    {
+      "name": "test_sbc",
+      "description": "Signal SBC (for testing)",
+      "$metadata": {
+        "0": "No SBC",
+        "1": "SBC",
+        "negativeState": 1
+      }
     }
   ],
   "ain": [
@@ -328,6 +708,26 @@
       "participatingJointsCount": 6,
       "kinematicsConfigurationType": 1,
       "supportedConfigurationBits": 7,
+      "velocityScaling": [
+        {
+          "enabled": true,
+          "safeInput": true,
+          "scaleFactor": 0.25,
+          "trigger": {
+            "input": 2,
+            "when": 1
+          }
+        },
+        {
+          "enabled": true,
+          "safeInput": true,
+          "scaleFactor": 0,
+          "trigger": {
+            "input": 3,
+            "when": 1
+          }
+        }
+      ],
       "extentsX": [
         -1000,
         1000
