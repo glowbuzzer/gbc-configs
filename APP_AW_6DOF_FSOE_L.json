@@ -98,56 +98,74 @@
     }
   ],
   "din": [
+
     {
-      "name": "Safe Stop",
+      "name": "Tool 1",
       "description": "EL1008 Channel 1"
     },
     {
-      "name": "Software Stop",
+      "name": "Tool 2",
       "description": "EL1008 Channel 2"
     },
     {
-      "name": "Arm 48V Supply",
+      "name": "UNUSED INPUT 1",
       "description": "EL1008 Channel 3"
     },
     {
-      "name": "RC Light Signal",
+      "name": "UNUSED INPUT 2",
       "description": "EL1008 Channel 4"
     },
     {
-      "name": "Braking Chopper Error",
+      "name": "UNUSED INPUT 3",
       "description": "EL1008 Channel 5"
     },
     {
-      "name": "Tool 1",
+      "name": "UNUSED INPUT 4",
       "description": "EL1008 Channel 6"
     },
     {
-      "name": "Tool 2",
+      "name": "UNUSED INPUT 5",
       "description": "EL1008 Channel 7"
     },
     {
-      "name": "UNUSED INPUT 1",
+      "name": "UNUSED INPUT 6",
       "description": "EL1008 Channel 8"
     }
   ],
   "dout": [
     {
-      "name": "SPARE OUTPUT 1",
-      "description": "EL2008 Channel 5"
-    },
-    {
       "name": "Tool 1",
-      "description": "EL2008 Channel 6"
+      "description": "EL2008 Channel 1"
     },
     {
       "name": "Tool 2",
-      "description": "EL2008 Channel 7"
+      "description": "EL2008 Channel 2"
+    },
+    {
+      "name": "SPARE OUTPUT 1",
+      "description": "EL2008 Channel 3"
     },
     {
       "name": "SPARE OUTPUT 2",
+      "description": "EL2008 Channel 4"
+    },
+    {
+      "name": "SPARE OUTPUT 3",
+      "description": "EL2008 Channel 5"
+    },
+    {
+      "name": "SPARE OUTPUT 4",
+      "description": "EL2008 Channel 6"
+    },
+    {
+      "name": "SPARE OUTPUT 5",
+      "description": "EL2008 Channel 7"
+    },
+    {
+      "name": "SPARE OUTPUT 6",
       "description": "EL2008 Channel 8"
     }
+
   ],
   "safetyDin": [
     {
