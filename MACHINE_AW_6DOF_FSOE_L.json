@@ -72,7 +72,7 @@
         "eep_name": "EK1100",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
         ]
@@ -82,7 +82,7 @@
         "eep_name": "EL2008",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
         ]
@@ -92,7 +92,7 @@
         "eep_name": "EL1008",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
         ]
@@ -102,7 +102,7 @@
         "eep_name": "EL6021",
         "optional": {
           "is_configurable": true,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
           {
@@ -177,7 +177,7 @@
         "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
           {
@@ -222,7 +222,7 @@
         "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
             {
@@ -267,7 +267,7 @@
         "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
             {
@@ -312,7 +312,7 @@
         "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
             {
@@ -357,7 +357,7 @@
         "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
             {
@@ -402,7 +402,7 @@
         "eep_name": "SOMANET",
         "optional": {
           "is_configurable": false,
-          "is_enabled": false
+          "is_enabled": true
         },
         "sdos": [
             {
