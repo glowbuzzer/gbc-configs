@@ -562,6 +562,9 @@
   "frames": [
     {
       "name": "World",
+      "$metadata": {
+        "world": true
+      },
       "translation": {
         "x": 0,
         "y": 0,
@@ -576,6 +579,9 @@
     },
     {
       "name": "Robot",
+      "$metadata": {
+        "readonly": true
+      },
       "translation": {
         "x": 0,
         "y": 0,
