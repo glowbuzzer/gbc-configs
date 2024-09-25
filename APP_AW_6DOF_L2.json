@@ -1,4 +1,7 @@
 {
+  "$metadata": {
+    "workspaceSize": 2000
+  },
   "machine": [
     {
       "name": "AWTUBE L2",
@@ -328,18 +331,6 @@
       "participatingJointsCount": 6,
       "kinematicsConfigurationType": 1,
       "supportedConfigurationBits": 7,
-      "extentsX": [
-        -1000,
-        1000
-      ],
-      "extentsY": [
-        -1000,
-        1000
-      ],
-      "extentsZ": [
-        -1000,
-        1500
-      ],
       "linearLimits": [
         {
           "vmax": 60,

@@ -63,10 +63,6 @@
             "participatingJointsCount": 1,
             "kinematicsParameters": {
                 "kinematicsConfigurationType": 4,
-                "extentsX": [
-                    -100,
-                    100
-                ],
                 "linearLimits": [
                     {
                         "vmax": 50,
@@ -84,10 +80,6 @@
             ],
             "participatingJointsCount": 1,
             "kinematicsConfigurationType": 4,
-            "extentsX": [
-                -100,
-                100
-            ],
             "linearLimits": [
                 {
                     "vmax": 50,

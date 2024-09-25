@@ -1,4 +1,7 @@
 {
+  "$metadata": {
+    "workspaceSize": 2000
+  },
   "machine": [
     {
       "name": "AWTUBE L2",
@@ -751,18 +754,6 @@
             "when": 1
           }
         }
-      ],
-      "extentsX": [
-        -1000,
-        1000
-      ],
-      "extentsY": [
-        -1000,
-        1000
-      ],
-      "extentsZ": [
-        -1000,
-        1500
       ],
       "linearLimits": [
         {
