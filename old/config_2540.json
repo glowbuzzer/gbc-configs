@@ -86,18 +86,6 @@
             ],
             "participatingJointsCount": 3,
             "kinematicsConfigurationType": 4,
-            "extentsX": [
-                -1000,
-                1000
-            ],
-            "extentsY": [
-                -1000,
-                1000
-            ],
-            "extentsZ": [
-                -500,
-                500
-            ],
             "linearLimits": [
                 {
                     "vmax": 200,

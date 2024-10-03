@@ -1,0 +1,51 @@
+{
+  "machine": [
+    {
+      "name": "default"
+    }
+  ],
+  "frames": [
+    {
+      "name": "default"
+    }
+  ],
+  "kinematicsConfiguration": [
+    {
+      "name": "default",
+      "linearLimits": [
+        {}
+      ],
+      "participatingJoints": []
+    }
+  ],
+  "joint": [],
+  "din": [],
+  "dout": [],
+  "ain": [],
+  "aout": [],
+  "uiin": [],
+  "uiout": [],
+  "iin": [],
+  "iout": [],
+  "externalDin": [],
+  "externalDout": [],
+  "externalUiin": [],
+  "externalUiout": [],
+  "externalIin": [],
+  "externalIout": [],
+  "safetyDin": [],
+  "safetyDout": [],
+  "modbusDin": [],
+  "modbusDout": [],
+  "modbusUiin": [],
+  "modbusUiout": [],
+  "tool": [],
+  "points": [],
+  "activity": [],
+  "serial": [],
+  "soloActivity": [],
+  "spindle": [],
+  "stream": [],
+  "task": [],
+  "moveParameters": []
+}
