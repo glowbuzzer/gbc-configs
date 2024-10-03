@@ -29,24 +29,24 @@
         "max_motor_torque": 4012
       },
       {
-        "position_limit_max": -180,
-        "position_limit_min": 180,
+        "position_limit_max": 180,
+        "position_limit_min": -180,
         "velocity_limit": 50,
         "torque_limit": 50,
         "max_motor_speed": 2500000,
         "max_motor_torque": 3991
       },
       {
-        "position_limit_max": -5,
-        "position_limit_min": -175,
+        "position_limit_max": 180,
+        "position_limit_min": -180,
         "velocity_limit": 50,
         "torque_limit": 50,
         "max_motor_speed": 2500000,
         "max_motor_torque": 3991
       },
       {
-        "position_limit_max": 3000,
-        "position_limit_min": -3000,
+        "position_limit_max": 300,
+        "position_limit_min": -300,
         "velocity_limit": 50,
         "torque_limit": 50,
         "max_motor_speed": 3500000,
