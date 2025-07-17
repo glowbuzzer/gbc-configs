@@ -1,0 +1,651 @@
+{
+  "machine": [
+    {
+      "name": "default"
+    }
+  ],
+  "frames": [
+    {
+      "name": "default"
+    }
+  ],
+  "kinematicsConfiguration": [
+    {
+      "name": "robot",
+      "frameIndex": 0,
+      "participatingJoints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "participatingJointsCount": 6,
+      "kinematicsConfigurationType": 1,
+      "supportedConfigurationBits": 7,
+      "linearLimits": [
+        {
+          "vmax": 60,
+          "amax": 300,
+          "jmax": 6000
+        }
+      ],
+      "angularLimits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "kinChainParams": {
+        "numRows": 6,
+        "numCols": 5,
+        "data": [
+          -90,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -90,
+          525,
+          0,
+          90,
+          0,
+          180,
+          0,
+          0,
+          -90,
+          0,
+          0,
+          0,
+          475,
+          90,
+          0,
+          90,
+          0,
+          0,
+          0,
+          0,
+          -180,
+          0,
+          328
+        ],
+        "invJointAngles": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "inverseDynamicParams": [
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.025
+            },
+            "rpy": {
+              "r": 0,
+              "p": 0,
+              "y": 0
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 17.11,
+            "h": {
+              "x": 0.00002,
+              "y": 0.00337,
+              "z": 0.0783
+            },
+            "Ixx": 0.10033,
+            "Iyy": 0.098412,
+            "Izz": 0.072655,
+            "Ixy": 0.00004912,
+            "Ixz": 0.00009505,
+            "Iyz": 0.00059172
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "damping": 180,
+          "friction": 30
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": 0.1045,
+              "z": 0.092
+            },
+            "rpy": {
+              "r": 1.5708,
+              "p": 0,
+              "y": 3.1416
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 37.96,
+            "h": {
+              "x": 0,
+              "y": 0.2217,
+              "z": 0.1278
+            },
+            "Ixx": 2.44,
+            "Iyy": 0.224399,
+            "Izz": 2.365,
+            "Ixy": 0.00012778,
+            "Ixz": -4.0029e-17,
+            "Iyz": 0.117904
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "damping": 175,
+          "friction": 15
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": 0.525,
+              "z": 0.0505
+            },
+            "rpy": {
+              "r": -3.1416,
+              "p": 0,
+              "y": -3.1416
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 11.26,
+            "h": {
+              "x": -0.00146,
+              "y": -0.00016,
+              "z": 0.11997
+            },
+            "Ixx": 0.058338,
+            "Iyy": 0.075667,
+            "Izz": 0.048275,
+            "Ixy": 0.00011853,
+            "Ixz": 0.00059057,
+            "Iyz": -0.00003323
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "damping": 75,
+          "friction": 15
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0.0874000000000046,
+              "y": 0,
+              "z": 0.155
+            },
+            "rpy": {
+              "r": -1.5707963267949,
+              "p": 0,
+              "y": -1.57079632679489
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 9.75,
+            "h": {
+              "x": 0.00019,
+              "y": -0.00169,
+              "z": 0.35365
+            },
+            "Ixx": 0.108309,
+            "Iyy": 0.090958,
+            "Izz": 0.03995142,
+            "Ixy": -0.00010593,
+            "Ixz": 0.00003162,
+            "Iyz": -0.00057054
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "damping": 25,
+          "friction": 8
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": 0.0874,
+              "z": 0.3876
+            },
+            "rpy": {
+              "r": 1.5708,
+              "p": -1.5708,
+              "y": 0
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 5.22,
+            "h": {
+              "x": 0.00002,
+              "y": -0.19464,
+              "z": 0.06264
+            },
+            "Ixx": 0.041937,
+            "Iyy": 0.02041881,
+            "Izz": 0.03423788,
+            "Ixy": -0.00000348,
+            "Ixz": 0.00001969,
+            "Iyz": -0.01118275
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "damping": 25,
+          "friction": 8
+        },
+        {
+          "urdfFrame": {
+            "translation": {
+              "x": 0,
+              "y": -0.328,
+              "z": 0.0911
+            },
+            "rpy": {
+              "r": 1.5708,
+              "p": 0,
+              "y": 0
+            }
+          },
+          "rigidBodyInertia": {
+            "m": 0.41,
+            "h": {
+              "x": -0.00011,
+              "y": -0.00001,
+              "z": -0.0257
+            },
+            "Ixx": 0.00033004,
+            "Iyy": 0.00032822,
+            "Izz": 0.00054011,
+            "Ixy": -1.28e-7,
+            "Ixz": -9.4e-7,
+            "Iyz": -6e-8
+          },
+          "jointAxis": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "damping": 1,
+          "friction": 2.5
+        }
+      ]
+    },
+    {
+      "name": "agv",
+      "participatingJoints": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "participatingJointsCount": 8,
+      "kinematicsConfigurationType": 16,
+      "linearLimits": [
+        {
+          "vmax": 2,
+          "amax": 40,
+          "jmax": 800
+        }
+      ],
+      "angularLimits": [
+        {
+          "vmax": 0.5,
+          "amax": 5,
+          "jmax": 50
+        }
+      ],
+      "agvWheels": [
+        {
+          "position": {
+            "x": -3.5,
+            "y": -2
+          },
+          "radius": 1
+        },
+        {
+          "position": {
+            "x": 3.5,
+            "y": -2
+          },
+          "radius": 1
+        },
+        {
+          "position": {
+            "x": 3.5,
+            "y": 2
+          },
+          "radius": 1
+        },
+        {
+          "position": {
+            "x": -3.5,
+            "y": 2
+          },
+          "radius": 1
+        }
+      ]
+    }
+  ],
+
+
+  "joint": [
+    {
+      "name": "r0",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 3.414,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 3
+    },
+    {
+      "name": "r1",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 2.54,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 1
+    },
+    {
+      "name": "r2",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 3.41,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": false,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 1
+    },
+    {
+      "name": "r3",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 4.3,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 3
+    },
+    {
+      "name": "r4",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 166886,
+      "scaleVel": 9549,
+      "scaleTorque": 4.3,
+      "jointType": 1,
+      "negLimit": -200,
+      "posLimit": 200,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 1
+    },
+    {
+      "name": "r5",
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scalePos": 8511186,
+      "scaleVel": 9549,
+      "scaleTorque": 16.07,
+      "jointType": 1,
+      "negLimit": -360,
+      "posLimit": 360,
+      "inverted": true,
+      "dynamicsVelocityThreshold": 0.02,
+      "preferredMode": 1,
+      "supportedModes": 5,
+      "supportedTorqueModes": 3
+    },
+
+
+
+    {
+      "name": "s1",
+      "jointType": 1,
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scale": 1000000
+    },
+    {
+      "name": "s2",
+      "jointType": 1,
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scale": 1000000
+    },
+    {
+      "name": "s3",
+      "jointType": 1,
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scale": 1000000
+    },
+    {
+      "name": "s4",
+      "jointType": 1,
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scale": 1000000
+    },
+    {
+      "name": "d1",
+      "jointType": 1,
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scale": 1000000
+    },
+    {
+      "name": "d2",
+      "jointType": 1,
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scale": 1000000
+    },
+    {
+      "name": "d3",
+      "jointType": 1,
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scale": 1000000
+    },
+    {
+      "name": "d4",
+      "jointType": 1,
+      "limits": [
+        {
+          "vmax": 0.1,
+          "amax": 1,
+          "jmax": 2
+        }
+      ],
+      "scale": 1000000
+    }
+  ],
+  "din": [],
+  "dout": [],
+  "ain": [],
+  "aout": [],
+  "uiin": [],
+  "uiout": [],
+  "iin": [],
+  "iout": [],
+  "externalDin": [],
+  "externalDout": [],
+  "externalUiin": [],
+  "externalUiout": [],
+  "externalIin": [],
+  "externalIout": [],
+  "safetyDin": [],
+  "safetyDout": [],
+  "modbusDin": [],
+  "modbusDout": [],
+  "modbusUiin": [],
+  "modbusUiout": [],
+  "tool": [
+    {
+      "name": "default"
+    }
+  ],
+  "points": [
+    {
+      "name": "point1",
+      "frameIndex": 0,
+      "translation": {
+        "x": 210,
+        "y": 210,
+        "z": 400
+      },
+      "rotation": {
+        "x": 1,
+        "y": 0,
+        "z": 0,
+        "w": 0
+      },
+      "configuration": 0
+    }
+  ],
+  "activity": [],
+  "serial": [],
+  "soloActivity": [
+    {
+      "name": "robot"
+    },
+    {
+      "name": "agv"
+    }
+  ],
+  "spindle": [],
+  "stream": [
+    {
+      "name": "robot"
+    },
+    {
+      "name": "agv"
+    }
+  ],
+  "task": [],
+  "moveParameters": []
+}

@@ -45,7 +45,9 @@
   "serial": [],
   "soloActivity": [],
   "spindle": [],
-  "stream": [],
+  "stream": [{
+    "name": "default"
+  }],
   "task": [],
   "moveParameters": []
 }
