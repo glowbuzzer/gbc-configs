@@ -1,0 +1,74 @@
+{
+  "$log": "TMC TWO DRIVEs CONFIG ACTIVE",
+  "machine": [
+    {
+      "name": "TMC TWO DRIVES",
+      "busCycleTime": 10
+    }
+  ],
+  "joint": [
+    {
+      "name": "J0",
+      "limits": [
+        {
+          "vmax": 8,
+          "amax": 320,
+          "jmax": 3200
+        }
+      ],
+      "jointType": 1,
+      "finiteContinuous": 1,
+      "scale": 8149
+    },
+    {
+      "name": "J1",
+      "limits": [
+        {
+          "vmax": 8,
+          "amax": 320,
+          "jmax": 3200
+        }
+      ],
+      "jointType": 1,
+      "finiteContinuous": 1,
+      "scale": 8149
+    }
+  ],
+  "frames": [
+    {
+      "name": "default"
+    }
+  ],
+  "stream": [
+    {
+      "name": "default"
+    }
+  ],
+  "soloActivity": [
+    {
+      "name": "default"
+    }
+  ],
+  "kinematicsConfiguration": [
+    {
+      "name": "default",
+      "participatingJointsCount": 1,
+      "participatingJoints": [
+        0
+      ],
+      "linearLimits": [
+        {
+          "vmax": 8,
+          "amax": 320,
+          "jmax": 3200
+        }
+      ]
+    }
+  ],
+  "din": [{
+    "name": "din0"
+  }],
+  "dout": [{
+    "name": "dout0"
+  }]
+}
