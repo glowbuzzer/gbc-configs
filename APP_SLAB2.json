@@ -1,14 +1,53 @@
 {
-  "$log": "TMC SINGLE DRIVE CONFIG ACTIVE",
+  "$log": "SLAB2 CONFIG ACTIVE",
   "machine": [
     {
-      "name": "TMC SINGLE DRIVE",
-      "busCycleTime": 4
+      "name": "SLAB2",
+      "busCycleTime": 10
     }
   ],
   "joint": [
     {
       "name": "J0",
+      "limits": [
+        {
+          "vmax": 20,
+          "amax": 200,
+          "jmax": 3200
+        }
+      ],
+      "jointType": 1,
+      "finiteContinuous": 1,
+      "scale": 8149
+    },
+    {
+      "name": "J1",
+      "limits": [
+        {
+          "vmax": 20,
+          "amax": 200,
+          "jmax": 3200
+        }
+      ],
+      "jointType": 1,
+      "finiteContinuous": 1,
+      "scale": 8149
+    },
+    {
+      "name": "J2",
+      "limits": [
+        {
+          "vmax": 20,
+          "amax": 200,
+          "jmax": 3200
+        }
+      ],
+      "jointType": 1,
+      "finiteContinuous": 1,
+      "scale": 8149
+    },
+    {
+      "name": "J3",
       "limits": [
         {
           "vmax": 20,
@@ -41,7 +80,7 @@
       "name": "default",
       "participatingJointsCount": 1,
       "participatingJoints": [
-        0
+        0, 1, 2, 3
       ],
       "linearLimits": [
         {
