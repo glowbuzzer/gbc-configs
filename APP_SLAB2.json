@@ -78,7 +78,7 @@
   "kinematicsConfiguration": [
     {
       "name": "default",
-      "participatingJointsCount": 1,
+      "participatingJointsCount": 4,
       "participatingJoints": [
         0, 1, 2, 3
       ],
