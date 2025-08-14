@@ -3,7 +3,7 @@
   "machine": [
     {
       "name": "TMC SINGLE DRIVE",
-      "busCycleTime": 4
+      "busCycleTime": 10
     }
   ],
   "joint": [
@@ -11,9 +11,9 @@
       "name": "J0",
       "limits": [
         {
-          "vmax": 20,
-          "amax": 200,
-          "jmax": 3200
+          "vmax": 60,
+          "amax": 600,
+          "jmax": 6000
         }
       ],
       "jointType": 1,
@@ -45,9 +45,9 @@
       ],
       "linearLimits": [
         {
-          "vmax": 8,
-          "amax": 320,
-          "jmax": 3200
+          "vmax": 80,
+          "amax": 3200,
+          "jmax": 32000
         }
       ]
     }
