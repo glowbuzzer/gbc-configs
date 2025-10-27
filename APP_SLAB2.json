@@ -3,7 +3,8 @@
   "machine": [
     {
       "name": "SLAB2",
-      "busCycleTime": 10
+      "busCycleTime": 10,
+      "heartbeatTimeout": 30000
     }
   ],
   "joint": [
@@ -11,59 +12,16 @@
       "name": "J0",
       "limits": [
         {
-          "vmax": 0.5,
-          "amax": 10,
-          "jmax": 200
-        }
-      ],
-      "jointType": 1,
-      "finiteContinuous": 1,
-      "scale": 72320
-    },
-    {
-      "name": "J1",
-      "limits": [
-        {
           "vmax": 50,
-          "amax": 500,
-          "jmax": 5000
-        }
-      ],
-      "jointType": 0,
-      "finiteContinuous": 0,
-      "negLimit": 0,
-      "posLimit": 348,
-      "scale": 30400
-    },
-    {
-      "name": "J2",
-      "limits": [
-        {
-          "vmax": 10,
-          "amax": 100,
-          "jmax": 1000
-        }
-      ],
-      "jointType": 0,
-      "finiteContinuous": 0,
-      "negLimit": 0,
-      "posLimit": 40,
-      "scale": 25600
-    },
-    {
-      "name": "J3",
-      "limits": [
-        {
-          "vmax": 1,
-          "amax": 30,
-          "jmax": 500
+          "amax": 25,
+          "jmax": 250
         }
       ],
       "jointType": 1,
       "finiteContinuous": 0,
-      "negLimit": -115,
-      "posLimit": 115,
-      "scale": 33104
+      "negLimit": -180,
+      "posLimit": 360,
+      "scale": 72320
     }
   ],
   "frames": [
@@ -85,9 +43,9 @@
     {
       "name": "default",
       "kinematicsConfigurationType": 18,
-      "participatingJointsCount": 4,
+      "participatingJointsCount": 1,
       "participatingJoints": [
-        0, 1, 2, 3
+        0
       ],
       "linearLimits": [
         {

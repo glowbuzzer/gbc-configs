@@ -13,7 +13,11 @@
     {
       "name": "default",
       "linearLimits": [
-        {}
+        {
+          "vmax": 0.2,
+          "amax": 2,
+          "jmax": 20
+        }
       ],
       "participatingJoints": []
     }
